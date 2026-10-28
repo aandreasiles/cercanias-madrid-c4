@@ -1,0 +1,1392 @@
+{
+  "avisos": {
+    "estacion": [
+      {
+        "idnegocio": "40",
+        "estacion": "66212",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de València Sant Isidre ,acceso vestíbulo , se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de València Sant Isidre, acceso vestíbulo, es troba fora de servei. Disculpen les molèsties."
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "estacion": "64103",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Carcaixent, sentido Xàtiva de vía 2, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Carcaixent, sentit Xàtiva de via 2, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Carcaixent, sentido Valencia de vía 1, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Carcaixent, sentit València de via 1, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "En estos momentos Renfe no garantiza accesibilidad a la estación de Carcaixent para usuarios con movilidad reducida. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "En estos moments Renfe no garantix accessibilitat a l'estació de Carcaixent per a usuaris amb mobilitat reduïda. Disculpen les molèsties."
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "estacion": "64202",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Massanassa, sentido Valencia de vía 2, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Massanassa, sentit València de via 2, es troba fora de servei. Disculpen les molèsties."
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "estacion": "65005",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Albuixech, sentido Valencia de vía 1, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Albuixech, sentit València de via 1, es troba fora de servei. Disculpen les molèsties."
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "estacion": "64104",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Alzira  sentido Xàtiva  de vía 1, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Alzira , sentit València  de via 2, es troba fora de servei. Disculpen les molèsties."
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "estacion": "69103",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Sueca, sentido Gandía de vía 1, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Sueca, sentit Gandía de via 1, es troba fora de servei. Disculpen les molèsties."
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "estacion": "64203",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Alfafar- Benetusser paso urbano, acceso a paso inferior, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Alfafar- Benetusser, pas urbà, accés a pas inferior, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Alfafar- Benetusser, sentido Gandia y Xàtiva de vía 1, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Alfafar- Benetusser, sentit Gandia i Xàtiva de via 1, es troba fora de servei. Disculpen les molèsties."
+          }
+        ]
+      },
+      {
+        "idnegocio": "30",
+        "estacion": "43000",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Actualmente, por motivos técnicos, el ascensor de las vías 1-2 de la estación de San Jerónimo se encuentra fuera de servicio. Si tiene Movilidad Reducida y origen o destino en esta estación, contacte a través de los puntos de información en estaciones, máquinas auto venta o en el 954 485 672. Disculpe las molestias"
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "estacion": "65202",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Almenara, sentido Castelló de vía 2, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Almenara, sentit Castellóde via 2, es troba fora de servei. Disculpen les molèsties."
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "estacion": "64201",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Catarroja, sentido Valencia de vía 2, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Catarroja, sentit València de via 2, es troba fora de servei. Disculpen les molèsties."
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "estacion": "65007",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de El Puig, sentido Valencia de vía 1, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de El Puig, sentit València de via 1, es troba fora de servei. Disculpen les molèsties."
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "estacion": "13400",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "DESERTU-BARAKALDO: 1 eta 2. trenbideetako igogailuak zerbitzuz kanpo daude.  // Los ascensores de vía 1 y 2 se encuentran fuera de servicio. "
+          },
+          {
+            "lengua": "eu",
+            "texto": "DESERTU-BARAKALDO: 1-3. trenbideetako igogailua zerbitzuz kanpo dago. Santurtzi/Muskiz noranzko bidaiarie eragiten die. // El ascensor de vía 1-3 se encuentra fuera de servicio. Afecta a los viajeros dirección Santurce-Muskiz."
+          }
+        ]
+      }
+    ],
+    "linea": [
+      {
+        "idnegocio": "60",
+        "linea": "C1",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "DESERTU-BARAKALDO: 1 eta 2. trenbideetako igogailuak zerbitzuz kanpo daude.  // Los ascensores de vía 1 y 2 se encuentran fuera de servicio. "
+          },
+          {
+            "lengua": "eu",
+            "texto": "DESERTU-BARAKALDO: 1-3. trenbideetako igogailua zerbitzuz kanpo dago. Santurtzi/Muskiz noranzko bidaiarie eragiten die. // El ascensor de vía 1-3 se encuentra fuera de servicio. Afecta a los viajeros dirección Santurce-Muskiz."
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "linea": "C2",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "DESERTU-BARAKALDO: 1 eta 2. trenbideetako igogailuak zerbitzuz kanpo daude.  // Los ascensores de vía 1 y 2 se encuentran fuera de servicio. "
+          },
+          {
+            "lengua": "eu",
+            "texto": "DESERTU-BARAKALDO: 1-3. trenbideetako igogailua zerbitzuz kanpo dago. Santurtzi/Muskiz noranzko bidaiarie eragiten die. // El ascensor de vía 1-3 se encuentra fuera de servicio. Afecta a los viajeros dirección Santurce-Muskiz."
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "linea": "C4",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "#MadC4b Por reajuste de servicio, tren con salida de Colmenar Viejo a las 09:05h, y destino Parla, hoy inicia su recorrido en la estación de Tres Cantos a las 09:11h, aproximadamente. Siguiente tren con origen Colmenar Viejo, y destino Parla, tiene prevista su salida a las 09:18h, aproximadamente."
+          },
+          {
+            "lengua": "es",
+            "texto": "#MadC3 #MadC4 Los trenes recuperan sus frecuencias de paso habituales de forma progresiva."
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "linea": "C5",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "#MadC5 Por obras de mejora en la infraestructura, los fines de semana del 3-4, 17-18 y 24-25 de octubre entre las 00:30h y las 10:00h, los trenes inician y finalizan su recorrido en Atocha. "
+          }
+        ]
+      },
+      {
+        "idnegocio": "100",
+        "linea": "RG1",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "linea": "C3",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "#MadC3 #MadC4 Los trenes recuperan sus frecuencias de paso habituales de forma progresiva."
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "linea": "C8",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "#MadC8b Por obras de mejora en la infraestructura, del 10 al 12 de octubre, los trenes no prestan servicio entre Villalba de Guadarrama y Cercedilla. Se dispone de un servicio especial de autobús con parada en estaciones intermedias. "
+          },
+          {
+            "lengua": "es",
+            "texto": "#MadC9 Debido a las obras que se están realizando en la línea C-9, los aseos públicos de la estación de Cercedilla permanecen temporalmente inoperativos. "
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "linea": "C9",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "#MadC9 Por obras de reforma integral en la línea C-9, se encuentra suspendido el servicio de trenes entre las estaciones de Cercedilla-Puerto de Navacerrada-Los Cotos. Se ha establecido un servicio especial de autobuses con reserva de plaza."
+          },
+          {
+            "lengua": "es",
+            "texto": "#MadC9 Debido a las obras que se están realizando en la línea C-9, los aseos públicos de la estación de Cercedilla permanecen temporalmente inoperativos. "
+          }
+        ]
+      },
+      {
+        "idnegocio": "41",
+        "linea": "C2",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Plan alternativo de transporte para la Línea C2 de Cercanías por obras de Adif en la Región de Murcia. Consulte Horarios: https://www.renfe.com/es/es/grupo-renfe/comunicacion/renfe-al-dia/avisos/plan-alternativo-transporte-derovadp-obras-adif-ave-region-murcia"
+          },
+          {
+            "lengua": "ca",
+            "texto": "Plan alternativo de transporte para la Línea C2 de Cercanías por obras de Adif en la Región de Murcia. Consulte Horarios: https://www.renfe.com/es/es/grupo-renfe/comunicacion/renfe-al-dia/avisos/plan-alternativo-transporte-derovadp-obras-adif-ave-region-murcia"
+          }
+        ]
+      },
+      {
+        "idnegocio": "45",
+        "linea": "C1",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Pruebas, disculpen las molestias"
+          }
+        ]
+      },
+      {
+        "idnegocio": "50",
+        "linea": "R3",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Circulación ferroviaria entre La Garriga - Puigcerdà/La Tor de Querol con afectaciones. Servicio alternativo por carretera entre Ripoll - Puigcerdà i Fabra i Puig - Puigcerdà."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Circulació ferroviària entre la Garriga i Puigcerdà/La Tor de Querol amb afectacions. S'estableix un servei alternatiu per carretera entre Ripoll i Puigcerdà i entre Fabra i Puig i Puigcerdà."
+          }
+        ]
+      },
+      {
+        "idnegocio": "50",
+        "linea": "R4",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "50",
+        "linea": "R1",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Circulación ferroviaria entre L'Hospitalet de Llobregat y Blanes fuera de su horario habitual. Se establece un servicio alternativo por carretera entre Blanes y Maçanet-Massanes"
+          },
+          {
+            "lengua": "ca",
+            "texto": "Circulació ferroviària entre L'Hospitalet de Llobregat i Blanes fora del seu horari habitual. S'estableix un servei alternatiu per carretera entre Blanes i Maçanet-Massanes."
+          },
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "50",
+        "linea": "R2",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Sin servicio ferroviario. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Sense servei ferroviari"
+          },
+          {
+            "lengua": "es",
+            "texto": "Circulación por vía única entre Sant Vicenç de Calders y Cunit por una incidencia en la infraestructura derivada de las intensas lluvias de ayer. Se mantiene el servicio ferroviario entre Cunit y Barcelona Estació de França."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Circulació per via única entre Sant Vicenç de Calders i Cunit a causa d'una incidència a la infraestructura provocada per les intenses pluges d'ahir. Es manté el servei ferroviari entre Cunit i Barcelona Estació de França."
+          },
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          },
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "linea": "C3",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de València Sant Isidre ,acceso vestíbulo , se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de València Sant Isidre, acceso vestíbulo, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "#LÍNEA C3. SERVICIO ALTERNATIVO POR AUTOBÚS entre las estaciones de Valencia Font de Sant Lluis y Valencia Sant Isidre por obras de mejora en la infraestructura desde el 13 de septiembre. Los viajeros con título de transporte SUMA y destino València, también pueden realizar transbordo en València Sant Isidre con Metro. Consulte los horarios en: https://renfe.com/es/es/cercanias/cercanias-valencia/horarios#/buscar"
+          },
+          {
+            "lengua": "ca",
+            "texto": "#LÍNIA C3. SERVEI ALTERNATIU PER AUTOBÚS entre les estacions de València Font de Sant Lluis i València Sant Isidre per obres de millora en la infraestructura des de el 13 de setembre. Els viatgers amb títol de transport SUMA i destí València, també poden realitzar transbord a València Sant Isidre amb Metro. Consulte els horaris en: https://renfe.com/es/es/cercanias/cercanias-valencia/horarios#/buscar"
+          },
+          {
+            "lengua": "es",
+            "texto": "SERVICIO POR AUTOBÚS C-3: Plan alternativo de transporte por carretera. Más información: https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2025/12/plan-transporte-c3-valencia"
+          },
+          {
+            "lengua": "ca",
+            "texto": "SERVEI PER AUTOBÚS C-3: Pla alternatiu de transport per carretera. Més informació: https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2025/12/plan-transporte-c3-valencia\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "50",
+        "linea": "R7",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "50",
+        "linea": "R8",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Circulación ferroviaria en todo su recorrido. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Circulació ferroviària a tot el recorregut."
+          },
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          },
+          {
+            "lengua": "es",
+            "texto": "Servicio alternativo por carretera en todo su recorrido."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Servei alternatiu per carretera en tot el seu recorregut."
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "linea": "C5",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "SERVICIO POR AUTOBÚS C-5: Plan alternativo de transporte por carretera. Más información: https://www.renfe.com/es/es/grupo-renfe/comunicacion/renfe-al-dia/avisos/plan-alternativo-carretera-zaragoza-teruel-sagunto-valencia-obras"
+          },
+          {
+            "lengua": "ca",
+            "texto": "SERVEI PER AUTOBÚS C-5: Pla alternatiu de transport per carretera. Més informació: https://www.renfe.com/es/es/grupo-renfe/comunicacion/renfe-al-dia/avisos/plan-alternativo-carretera-zaragoza-teruel-sagunto-valencia-obras"
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "linea": "C6",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Almenara, sentido Castelló de vía 2, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Almenara, sentit Castellóde via 2, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Albuixech, sentido Valencia de vía 1, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Albuixech, sentit València de via 1, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de El Puig, sentido Valencia de vía 1, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de El Puig, sentit València de via 1, es troba fora de servei. Disculpen les molèsties."
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "linea": "C4a",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "#MadC4b Por reajuste de servicio, tren con salida de Colmenar Viejo a las 09:05h, y destino Parla, hoy inicia su recorrido en la estación de Tres Cantos a las 09:11h, aproximadamente. Siguiente tren con origen Colmenar Viejo, y destino Parla, tiene prevista su salida a las 09:18h, aproximadamente."
+          },
+          {
+            "lengua": "es",
+            "texto": "#MadC3 #MadC4 Los trenes recuperan sus frecuencias de paso habituales de forma progresiva."
+          }
+        ]
+      },
+      {
+        "idnegocio": "30",
+        "linea": "C3",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "ATENCIÓN Línea C3:\r\nPor obras de mejora en la infraestructura y para los trenes con origen/destino Madrid:\r\nSe establece un Plan Alternativo de Transporte por carretera entre las estaciones de Los Rosales y Cazalla-Constantina.\r\nEntre Los Rosales y Sevilla Santa Justa el recorrido se realiza con trenes de la línea C1.  (Consulta nuevos horarios por obras en canales oficiales y App).\r\nGracias por tu comprensión."
+          },
+          {
+            "lengua": "es",
+            "texto": "Para los trenes de la línea C3 con origen o destino MÉRIDA, CÁCERES, PLASENCIA y MADRID son válidos los títulos de viaje de Cercanías sin reserva de plaza asignada. Desde el día 3 de febrero, el transporte de bicicletas y otros elementos de movilidad individual y el viaje con animales de compañía, se rige por las condiciones generales de Media Distancia Convencional."
+          }
+        ]
+      },
+      {
+        "idnegocio": "30",
+        "linea": "C1",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Línea C-1 \r\n  \r\nViajeros del tren con salida de LORA DEL RIO a las 08:35h y con destino UTRERA, deben realizar un TRANSBORDO en la estación de SEVILLA SANTA JUSTA, a las 09:33h. \r\n\r\n Sigan las indicaciones del personal de Renfe, por favor. Sentimos las molestias. "
+          }
+        ]
+      },
+      {
+        "idnegocio": "32",
+        "linea": "C1",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Renfe Cercanías Málaga informa que la estación de TORREBLANCA no es accesible temporalmente para PMR, por motivos de mejora de la estación. Rogamos disculpen las molestias(-)"
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "linea": "C4b",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "#MadC4b Por reajuste de servicio, tren con salida de Colmenar Viejo a las 09:05h, y destino Parla, hoy inicia su recorrido en la estación de Tres Cantos a las 09:11h, aproximadamente. Siguiente tren con origen Colmenar Viejo, y destino Parla, tiene prevista su salida a las 09:18h, aproximadamente."
+          },
+          {
+            "lengua": "es",
+            "texto": "#MadC3 #MadC4 Los trenes recuperan sus frecuencias de paso habituales de forma progresiva."
+          }
+        ]
+      },
+      {
+        "idnegocio": "100",
+        "linea": "R11",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "100",
+        "linea": "RT2",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "100",
+        "linea": "RT1",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "30",
+        "linea": "C5",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": " Línea C-5 \r\n\r\nTren con salida a las 09:27h de la estación de BENACAZÓN y con destino JARDINES DE HÉRCULES, no presta servicio entre las estaciones de SEVILLA SANTA JUSTA y JARDINES DE HERCULES.     \r\n\r\nLos viajeros serán encaminados al siguiente tren de la línea C-5 o C-1 dirección UTRERA. \r\n\r\nIncidencia causada por el tren precedente. "
+          },
+          {
+            "lengua": "es",
+            "texto": "Línea C-5 \r\n\r\nTren con salida a las 09:01h de la estación de JARDINES DE HÉRCULES y con destino BENACAZÓN, no presta servicio entre las estaciones de JARDINES DE HERCULES y SEVILLA SANTA JUSTA.  \r\n\r\nLos viajeros serán encaminados al siguiente tren de la línea C-5 o C-1 solo hasta SEVILLA SANTA JUSTA \r\n\r\nIncidencia causada por el tren precedente."
+          }
+        ]
+      },
+      {
+        "idnegocio": "100",
+        "linea": "RL4",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "100",
+        "linea": "RL3",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "linea": "C1",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Sueca, sentido Gandía de vía 1, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Sueca, sentit Gandía de via 1, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Catarroja, sentido Valencia de vía 2, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Catarroja, sentit València de via 2, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Massanassa, sentido Valencia de vía 2, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Massanassa, sentit València de via 2, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Alfafar- Benetusser paso urbano, acceso a paso inferior, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Alfafar- Benetusser, pas urbà, accés a pas inferior, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Alfafar- Benetusser, sentido Gandia y Xàtiva de vía 1, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Alfafar- Benetusser, sentit Gandia i Xàtiva de via 1, es troba fora de servei. Disculpen les molèsties."
+          }
+        ]
+      },
+      {
+        "idnegocio": "100",
+        "linea": "R17",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "40",
+        "linea": "C2",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Línea C2. Tren con salida prevista a las 08:30h de la estación de València Nord con destino l'Alcúdia, efectúa su salida con 17 minutos de retraso. Incidencia operativa.\t\t\t\t"
+          },
+          {
+            "lengua": "ca",
+            "texto": "Línia C2. Tren amb eixida prevista a les 08:30h de l'estació de València Nord amb destinació l'Alcúdia, efectua la seua eixida amb 17 minuts de retard. Incidència operativa.\t\t\t"
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Carcaixent, sentido Xàtiva de vía 2, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Carcaixent, sentit Xàtiva de via 2, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Alzira  sentido Xàtiva  de vía 1, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Alzira , sentit València  de via 2, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Catarroja, sentido Valencia de vía 2, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Catarroja, sentit València de via 2, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Carcaixent, sentido Valencia de vía 1, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Carcaixent, sentit València de via 1, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Massanassa, sentido Valencia de vía 2, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Massanassa, sentit València de via 2, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Alfafar- Benetusser paso urbano, acceso a paso inferior, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Alfafar- Benetusser, pas urbà, accés a pas inferior, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Alfafar- Benetusser, sentido Gandia y Xàtiva de vía 1, se encuentra fuera de servicio. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "Ascensor de l'estació de Alfafar- Benetusser, sentit Gandia i Xàtiva de via 1, es troba fora de servei. Disculpen les molèsties."
+          },
+          {
+            "lengua": "es",
+            "texto": "En estos momentos Renfe no garantiza accesibilidad a la estación de Carcaixent para usuarios con movilidad reducida. Disculpen las molestias."
+          },
+          {
+            "lengua": "ca",
+            "texto": "En estos moments Renfe no garantix accessibilitat a l'estació de Carcaixent per a usuaris amb mobilitat reduïda. Disculpen les molèsties."
+          }
+        ]
+      },
+      {
+        "idnegocio": "100",
+        "linea": "R16",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "100",
+        "linea": "R15",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "100",
+        "linea": "R14",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "61",
+        "linea": "C1",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "#DonostiaAldiriakC1 Hornidura elektrikorik ez dagoelako, Brinkola eta Zumarragako geltokien arteko zerbitzua eten egin da. // #SanSebastianC1 Debido a falta de suministro eléctrico, queda interrumpida la circulación entre las estaciones de Brinkola y Zumarraga. \r\n\r\n"
+          },
+          {
+            "lengua": "eu",
+            "texto": "\r\n\r\n"
+          }
+        ]
+      },
+      {
+        "idnegocio": "100",
+        "linea": "R13",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Por causas ajenas a Rodalies no se puede garantizar la prestación del servicio. Pedimos disculpas a nuestros usuarios y recomendamos que busquen medios de transporte alternativos. "
+          },
+          {
+            "lengua": "ca",
+            "texto": "Per causes alienes a Rodalies no es pot garantir la prestació del servei. Demanem disculpes als nostres usuaris i recomanem que utilitzin mitjans de transport alternatius.\r\n"
+          }
+        ]
+      }
+    ]
+  },
+  "informaciones": {
+    "estacion": [
+      {
+        "idnegocio": "10",
+        "estacion": "70100",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de Vicálvaro, que da acceso a vías 1 y 3, sentido Chamartín, El Escorial, Cercedilla y Príncipe Pío, se encuentra fuera de servicio"
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "estacion": "13113",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "BIDEBIETA-BASAURI. Azpiegiturako lanak direla eta, sarbide berria egongo da, Agirre Lehendakaria etorbidearen eta Fauste kalearen artean dagoen plazatik. // BIDEBIETA-BASAURI. Debido a obras en la infraestructura, el acceso a la estación se realizará por la plaza situada entre Av. Agirre Lehendariak y Calle Fauste. "
+          },
+          {
+            "lengua": "eu",
+            "texto": "BIDEBIETA-BASAURI. Azpiegiturako lanak direla eta, sarbide berria egongo da, Agirre Lehendakaria etorbidearen eta Fauste kalearen artean dagoen plazatik. // BIDEBIETA-BASAURI. Debido a obras en la infraestructura, el acceso a la estación se realizará por la plaza situada entre Av. Agirre Lehendariak y Calle Fauste. "
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "estacion": "18002",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Nuevos Ministerios, acceso desde la calle Raimundo Fernández Villaverde a vestíbulo de Cercanías, se encuentra fuera de servicio."
+          }
+        ]
+      },
+      {
+        "idnegocio": "61",
+        "estacion": "11404",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "BEASAIN: 2. trenbideko igogailua zerbitzuz kanpo dago. Brinkola noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentra fuera de servicio. Afecta a los viajeros dirección Brinkola."
+          },
+          {
+            "lengua": "eu",
+            "texto": "BEASAIN: 2. trenbideko igogailua zerbitzuz kanpo dago. Brinkola noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentra fuera de servicio. Afecta a los viajeros dirección Brinkola."
+          }
+        ]
+      },
+      {
+        "idnegocio": "61",
+        "estacion": "11600",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "#DonostiaAldiriakC1 Azpiegituran egin beharreko lanak direla eta, zenbait ordu eta egunetan etenda dago Irun eta Hernaniko geltokien arteko zirkulazioa, bi noranzkoetan. Errepide bidezko garraio alternatiboa ezartzen da. Begiratu ordutegiak geltokietako beira-arasetan. // #SanSebastianC1 Debido a obras en la infraestructura, en determinadas franjas horarias y días se encuentra interrumpida la circulación entre las estaciones de Irun y Hernani en ambos sentidos. Se establece transporte alternativo por carretera. Consulten horarios en las vitrinas de las estaciones."
+          },
+          {
+            "lengua": "eu",
+            "texto": "#DonostiaAldiriakC1 Azpiegituran egin beharreko lanak direla eta, zenbait ordu eta egunetan etenda dago Irun eta Hernaniko geltokien arteko zirkulazioa, bi noranzkoetan. Errepide bidezko garraio alternatiboa ezartzen da. Begiratu ordutegiak geltokietako beira-arasetan. // #SanSebastianC1 Debido a obras en la infraestructura, en determinadas franjas horarias y días se encuentra interrumpida la circulación entre las estaciones de Irun y Hernani en ambos sentidos. Se establece transporte alternativo por carretera. Consulten horarios en las vitrinas de las estaciones."
+          },
+          {
+            "lengua": "es",
+            "texto": "IRUN: 2. trenbideko igogailua zerbitzuz kanpo dago. Brinkola noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentra fuera de servicio. Afecta a los viajeros dirección Brinkola."
+          },
+          {
+            "lengua": "eu",
+            "texto": "IRUN: 2. trenbideko igogailua zerbitzuz kanpo dago. Brinkola noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentra fuera de servicio. Afecta a los viajeros dirección Brinkola."
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "estacion": "05471",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "GÜEÑES. Matxura baten ondorioz, Güeneseko geltokiko sarbide nagusia itxita dago aldi baterako. Geltokiaren eraikinaren ondoko burdin hesi batetik sartzeko aukera ezarri da. //  El acceso principal de la estación de Güenes se encuentra temporalmente cerrado debido a una avería. Se ha habilitado un acceso por una verja colindante al edificio de la estación."
+          },
+          {
+            "lengua": "eu",
+            "texto": "#BilboAldiriakC4 Matxura baten ondorioz, Güeneseko geltokiko sarbide nagusia itxita dago aldi baterako. Geltokiaren eraikinaren ondoko burdin hesi batetik sartzeko aukera ezarri da. // #BilbaoC4 El acceso principal de la estación de Güenes se encuentra temporalmente cerrado debido a una avería. Se ha habilitado un acceso por una verja colindante al edificio de la estación."
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "estacion": "05483",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "BALMASEDA. Ekainaren 29tik aurrera, Balmasedako geltokia itxita egongo da hobekuntza lanak direla eta. Nasara sartzeko. Justizia Jauregiaren ondoko kale beretik joan zaitezkete. // Desde el día 29 de junio, el acceso al vestíbulo de la estación de Balmaseda por la Calle Estación permanecerá cerrado temporalmente por obras de mejora. Para acceder al andén, utilicen el acceso situado en la misma calle, junto al Palacio de Justicia."
+          },
+          {
+            "lengua": "eu",
+            "texto": "BALMASEDA. Ekainaren 29tik aurrera, Balmasedako geltokia itxita egongo da hobekuntza lanak direla eta. Nasara sartzeko. Justizia Jauregiaren ondoko kale beretik joan zaitezkete. // Desde el día 29 de junio, el acceso al vestíbulo de la estación de Balmaseda por la Calle Estación permanecerá cerrado temporalmente por obras de mejora. Para acceder al andén, utilicen el acceso situado en la misma calle, junto al Palacio de Justicia."
+          }
+        ]
+      },
+      {
+        "idnegocio": "61",
+        "estacion": "11505",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "ANDOAIN: 2. trenbideetako igogailua zerbitzuz kanpo dago. // El ascensor de vía 2 se encuentra fuera de servicio. "
+          },
+          {
+            "lengua": "eu",
+            "texto": "ANDOAIN: 2. trenbideetako igogailua zerbitzuz kanpo dago. // El ascensor de vía 2 se encuentra fuera de servicio. "
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "estacion": "97100",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de Pitis con acceso a vía 2, sentido Alcalá de Henares y Guadalajara, se encuentra fuera de servicio."
+          }
+        ]
+      },
+      {
+        "idnegocio": "61",
+        "estacion": "11508",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "#DonostiaAldiriakC1 Azpiegituran egin beharreko lanak direla eta, zenbait ordu eta egunetan etenda dago Irun eta Hernaniko geltokien arteko zirkulazioa, bi noranzkoetan. Errepide bidezko garraio alternatiboa ezartzen da. Begiratu ordutegiak geltokietako beira-arasetan. // #SanSebastianC1 Debido a obras en la infraestructura, en determinadas franjas horarias y días se encuentra interrumpida la circulación entre las estaciones de Irun y Hernani en ambos sentidos. Se establece transporte alternativo por carretera. Consulten horarios en las vitrinas de las estaciones."
+          },
+          {
+            "lengua": "eu",
+            "texto": "#DonostiaAldiriakC1 Azpiegituran egin beharreko lanak direla eta, zenbait ordu eta egunetan etenda dago Irun eta Hernaniko geltokien arteko zirkulazioa, bi noranzkoetan. Errepide bidezko garraio alternatiboa ezartzen da. Begiratu ordutegiak geltokietako beira-arasetan. // #SanSebastianC1 Debido a obras en la infraestructura, en determinadas franjas horarias y días se encuentra interrumpida la circulación entre las estaciones de Irun y Hernani en ambos sentidos. Se establece transporte alternativo por carretera. Consulten horarios en las vitrinas de las estaciones."
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "estacion": "10200",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Villalba, con acceso desde el vestíbulo inferior a vestíbulo superior, se encuentra fuera de servicio."
+          }
+        ]
+      },
+      {
+        "idnegocio": "31",
+        "estacion": "51205",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor vía 4 de la estación de Aeropuerto de Jerez se encuentra fuera de servicio. Para más información contacten con el tl. 856 170 290. Disculpen las molestias"
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "estacion": "35002",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Fuenlabrada que da acceso a la vía 1 sentido Móstoles - El Soto, se encuentra fuera de servicio. "
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "estacion": "35001",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Leganés que da acceso del vestíbulo a la vía 1 y 3 sentido Móstoles - El Soto, se encuentra fuera de servicio. "
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "estacion": "70108",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Coslada que da acceso a la vía 2 sentido Alcalá de Henares / Guadalajara, se encuentra fuera de servicio. "
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "estacion": "35606",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Móstoles, acceso a vía 2 sentido Móstoles-El Soto, se encuentra fuera de servicio."
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "estacion": "13119",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "LA PEÑA: Atondotik nasetara igotzeko eskailera mekanikoak zerbitzuz kanpo dago. Bilbao-Abando eta Urduña noranzko bidaiariei eragiten die. // Las escaleras mecánicas de subida del vestibulo a andenes está fuera de servicio. Afecta a los viajeros dirección Bilbao-Abando y Orduña."
+          },
+          {
+            "lengua": "eu",
+            "texto": "LA PEÑA: Atondotik nasetara igotzeko eskailera mekanikoa zerbitzuz kanpo dago. Bilbo-Abando eta Urduña noranzko bidaiariei eragiten die. // La escalera mecánica de subida del vestibulo a andenes está fuera de servicio. Afecta a los viajeros dirección Bilbao-Abando y Orduña."
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "estacion": "13206",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "AMETZOLA: Atondotik nasetara igotzeko eskailera mekanikoak zerbitzuz kanpo dago. Bilbo La Concordia noranzko bidaiarie eragiten die. // Las escaleras mecánicas de subida del vestibulo a andenes se encuentran fuera de servicio. Afecta a los viajeros dirección Bilbao La Concordia."
+          },
+          {
+            "lengua": "eu",
+            "texto": "AMETZOLA: Atondotik nasetara igotzeko eskailera mekanikoak zerbitzuz kanpo dago. Bilbo La Concordia noranzko bidaiarie eragiten die. // Las escaleras mecánicas de subida del vestibulo a andenes se encuentran fuera de servicio. Afecta a los viajeros dirección Bilbao La Concordia."
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "estacion": "13118",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "ABAROA-SAN MIGUEL: 2. trenbideko igogailua zerbitzuz kanpo dago. // El ascensor de vía 2 se encuentra fuera de servicio."
+          },
+          {
+            "lengua": "eu",
+            "texto": "ABAROA-SAN MIGUEL: 1. trenbideko igogailua zerbitzuz kanpo dago. Bilbo/Abando noranzko bidaiarie eragiten die. // El ascensor de vía 1 se encuentra fuera de servicio. Afecta a los viajeros dirección Bilbao Abando."
+          },
+          {
+            "lengua": "es",
+            "texto": "ABAROA-SAN MIGUEL: 2. trenbideetako igogailua zerbitzuz kanpo dago. Urduña noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentra fuera de servicio. Afecta a los viajeros dirección Orduña."
+          },
+          {
+            "lengua": "eu",
+            "texto": "ABAROA-SAN MIGUEL: 2. trenbideetako igogailua zerbitzuz kanpo dago. Urduña noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentra fuera de servicio. Afecta a los viajeros dirección Orduña."
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "estacion": "13208",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "SAN MAMES. Luis Briñas irtenbidea. 1. trenbideko eskailerak mekanikoak zerbitzuz kanpo daude. // Salida Luis Briñas. Escaleras mecánicas de vía 1 se encuentran fuera de servicio."
+          },
+          {
+            "lengua": "eu",
+            "texto": "SAN MAMES. Luis Briñas irtenbidea. 1. trenbideko eskailerak mekanikoak zerbitzuz kanpo daude. // Salida Luis Briñas. Escaleras mecánicas de vía 1 se encuentran fuera de servicio."
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "estacion": "13400",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Desertu-Barakaldoko geltokia hobetzeko obrak direla eta, eraikin zaharra aldi baterako itxita egongo da. Jarduketek irauten duten bitartean, eraikinaren ondoan egokitutako sarbide batetik egingo da sarrera eta irteera. Irisgarritasuna eta instalazioak hobetzeko lanean jarraitzen dugu. Barkatu eragozpenak. // Debido a las obras de mejora en la estación de Desertu-Barakaldo, el edificio antiguo permanecerá cerrado temporalmente. Mientras duren las actuaciones, la entrada y salida se realizará por un acceso habilitado junto al edificio. Seguimos trabajando para mejorar la accesibilidad y las instalaciones. Disculpen las molestias."
+          },
+          {
+            "lengua": "eu",
+            "texto": "Desertu-Barakaldoko geltokia hobetzeko obrak direla eta, eraikin zaharra aldi baterako itxita egongo da. Jarduketek irauten duten bitartean, eraikinaren ondoan egokitutako sarbide batetik egingo da sarrera eta irteera. Irisgarritasuna eta instalazioak hobetzeko lanean jarraitzen dugu. Barkatu eragozpenak. // Debido a las obras de mejora en la estación de Desertu-Barakaldo, el edificio antiguo permanecerá cerrado temporalmente. Mientras duren las actuaciones, la entrada y salida se realizará por un acceso habilitado junto al edificio. Seguimos trabajando para mejorar la accesibilidad y las instalaciones. Disculpen las molestias."
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "estacion": "13304",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "ZORROTZA.2. trenbideko igogailuak zerbitzuz kanpo daude. Bilbo/Abando noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentran fuera de servicio. Afecta a los viajeros dirección Bilbao Abando."
+          },
+          {
+            "lengua": "eu",
+            "texto": "ZORROTZA.2. trenbideko igogailuak zerbitzuz kanpo daude. Bilbo/Abando noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentran fuera de servicio. Afecta a los viajeros dirección Bilbao Abando."
+          }
+        ]
+      },
+      {
+        "idnegocio": "10",
+        "estacion": "35009",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor de la estación de Zarzaquemada que da acceso del vestíbulo a la calle Roncal, se encuentra fuera de servicio. "
+          }
+        ]
+      }
+    ],
+    "linea": [
+      {
+        "idnegocio": "60",
+        "linea": "C1",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "SAN MAMES. Luis Briñas irtenbidea. 1. trenbideko eskailerak mekanikoak zerbitzuz kanpo daude. // Salida Luis Briñas. Escaleras mecánicas de vía 1 se encuentran fuera de servicio."
+          },
+          {
+            "lengua": "eu",
+            "texto": "SAN MAMES. Luis Briñas irtenbidea. 1. trenbideko eskailerak mekanikoak zerbitzuz kanpo daude. // Salida Luis Briñas. Escaleras mecánicas de vía 1 se encuentran fuera de servicio."
+          },
+          {
+            "lengua": "es",
+            "texto": "ZORROTZA.2. trenbideko igogailuak zerbitzuz kanpo daude. Bilbo/Abando noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentran fuera de servicio. Afecta a los viajeros dirección Bilbao Abando."
+          },
+          {
+            "lengua": "eu",
+            "texto": "ZORROTZA.2. trenbideko igogailuak zerbitzuz kanpo daude. Bilbo/Abando noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentran fuera de servicio. Afecta a los viajeros dirección Bilbao Abando."
+          },
+          {
+            "lengua": "es",
+            "texto": "Desertu-Barakaldoko geltokia hobetzeko obrak direla eta, eraikin zaharra aldi baterako itxita egongo da. Jarduketek irauten duten bitartean, eraikinaren ondoan egokitutako sarbide batetik egingo da sarrera eta irteera. Irisgarritasuna eta instalazioak hobetzeko lanean jarraitzen dugu. Barkatu eragozpenak. // Debido a las obras de mejora en la estación de Desertu-Barakaldo, el edificio antiguo permanecerá cerrado temporalmente. Mientras duren las actuaciones, la entrada y salida se realizará por un acceso habilitado junto al edificio. Seguimos trabajando para mejorar la accesibilidad y las instalaciones. Disculpen las molestias."
+          },
+          {
+            "lengua": "eu",
+            "texto": "Desertu-Barakaldoko geltokia hobetzeko obrak direla eta, eraikin zaharra aldi baterako itxita egongo da. Jarduketek irauten duten bitartean, eraikinaren ondoan egokitutako sarbide batetik egingo da sarrera eta irteera. Irisgarritasuna eta instalazioak hobetzeko lanean jarraitzen dugu. Barkatu eragozpenak. // Debido a las obras de mejora en la estación de Desertu-Barakaldo, el edificio antiguo permanecerá cerrado temporalmente. Mientras duren las actuaciones, la entrada y salida se realizará por un acceso habilitado junto al edificio. Seguimos trabajando para mejorar la accesibilidad y las instalaciones. Disculpen las molestias."
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "linea": "C2",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "SAN MAMES. Luis Briñas irtenbidea. 1. trenbideko eskailerak mekanikoak zerbitzuz kanpo daude. // Salida Luis Briñas. Escaleras mecánicas de vía 1 se encuentran fuera de servicio."
+          },
+          {
+            "lengua": "eu",
+            "texto": "SAN MAMES. Luis Briñas irtenbidea. 1. trenbideko eskailerak mekanikoak zerbitzuz kanpo daude. // Salida Luis Briñas. Escaleras mecánicas de vía 1 se encuentran fuera de servicio."
+          },
+          {
+            "lengua": "es",
+            "texto": "ZORROTZA.2. trenbideko igogailuak zerbitzuz kanpo daude. Bilbo/Abando noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentran fuera de servicio. Afecta a los viajeros dirección Bilbao Abando."
+          },
+          {
+            "lengua": "eu",
+            "texto": "ZORROTZA.2. trenbideko igogailuak zerbitzuz kanpo daude. Bilbo/Abando noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentran fuera de servicio. Afecta a los viajeros dirección Bilbao Abando."
+          },
+          {
+            "lengua": "es",
+            "texto": "Desertu-Barakaldoko geltokia hobetzeko obrak direla eta, eraikin zaharra aldi baterako itxita egongo da. Jarduketek irauten duten bitartean, eraikinaren ondoan egokitutako sarbide batetik egingo da sarrera eta irteera. Irisgarritasuna eta instalazioak hobetzeko lanean jarraitzen dugu. Barkatu eragozpenak. // Debido a las obras de mejora en la estación de Desertu-Barakaldo, el edificio antiguo permanecerá cerrado temporalmente. Mientras duren las actuaciones, la entrada y salida se realizará por un acceso habilitado junto al edificio. Seguimos trabajando para mejorar la accesibilidad y las instalaciones. Disculpen las molestias."
+          },
+          {
+            "lengua": "eu",
+            "texto": "Desertu-Barakaldoko geltokia hobetzeko obrak direla eta, eraikin zaharra aldi baterako itxita egongo da. Jarduketek irauten duten bitartean, eraikinaren ondoan egokitutako sarbide batetik egingo da sarrera eta irteera. Irisgarritasuna eta instalazioak hobetzeko lanean jarraitzen dugu. Barkatu eragozpenak. // Debido a las obras de mejora en la estación de Desertu-Barakaldo, el edificio antiguo permanecerá cerrado temporalmente. Mientras duren las actuaciones, la entrada y salida se realizará por un acceso habilitado junto al edificio. Seguimos trabajando para mejorar la accesibilidad y las instalaciones. Disculpen las molestias."
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "linea": "C3",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "BIDEBIETA-BASAURI. Azpiegiturako lanak direla eta, sarbide berria egongo da, Agirre Lehendakaria etorbidearen eta Fauste kalearen artean dagoen plazatik. // BIDEBIETA-BASAURI. Debido a obras en la infraestructura, el acceso a la estación se realizará por la plaza situada entre Av. Agirre Lehendariak y Calle Fauste. "
+          },
+          {
+            "lengua": "eu",
+            "texto": "BIDEBIETA-BASAURI. Azpiegiturako lanak direla eta, sarbide berria egongo da, Agirre Lehendakaria etorbidearen eta Fauste kalearen artean dagoen plazatik. // BIDEBIETA-BASAURI. Debido a obras en la infraestructura, el acceso a la estación se realizará por la plaza situada entre Av. Agirre Lehendariak y Calle Fauste. "
+          },
+          {
+            "lengua": "es",
+            "texto": "ABAROA-SAN MIGUEL: 2. trenbideko igogailua zerbitzuz kanpo dago. // El ascensor de vía 2 se encuentra fuera de servicio."
+          },
+          {
+            "lengua": "eu",
+            "texto": "ABAROA-SAN MIGUEL: 1. trenbideko igogailua zerbitzuz kanpo dago. Bilbo/Abando noranzko bidaiarie eragiten die. // El ascensor de vía 1 se encuentra fuera de servicio. Afecta a los viajeros dirección Bilbao Abando."
+          },
+          {
+            "lengua": "es",
+            "texto": "LA PEÑA: Atondotik nasetara igotzeko eskailera mekanikoak zerbitzuz kanpo dago. Bilbao-Abando eta Urduña noranzko bidaiariei eragiten die. // Las escaleras mecánicas de subida del vestibulo a andenes está fuera de servicio. Afecta a los viajeros dirección Bilbao-Abando y Orduña."
+          },
+          {
+            "lengua": "eu",
+            "texto": "LA PEÑA: Atondotik nasetara igotzeko eskailera mekanikoa zerbitzuz kanpo dago. Bilbo-Abando eta Urduña noranzko bidaiariei eragiten die. // La escalera mecánica de subida del vestibulo a andenes está fuera de servicio. Afecta a los viajeros dirección Bilbao-Abando y Orduña."
+          },
+          {
+            "lengua": "es",
+            "texto": "ABAROA-SAN MIGUEL: 2. trenbideetako igogailua zerbitzuz kanpo dago. Urduña noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentra fuera de servicio. Afecta a los viajeros dirección Orduña."
+          },
+          {
+            "lengua": "eu",
+            "texto": "ABAROA-SAN MIGUEL: 2. trenbideetako igogailua zerbitzuz kanpo dago. Urduña noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentra fuera de servicio. Afecta a los viajeros dirección Orduña."
+          }
+        ]
+      },
+      {
+        "idnegocio": "60",
+        "linea": "C4",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "GÜEÑES. Matxura baten ondorioz, Güeneseko geltokiko sarbide nagusia itxita dago aldi baterako. Geltokiaren eraikinaren ondoko burdin hesi batetik sartzeko aukera ezarri da. //  El acceso principal de la estación de Güenes se encuentra temporalmente cerrado debido a una avería. Se ha habilitado un acceso por una verja colindante al edificio de la estación."
+          },
+          {
+            "lengua": "eu",
+            "texto": "#BilboAldiriakC4 Matxura baten ondorioz, Güeneseko geltokiko sarbide nagusia itxita dago aldi baterako. Geltokiaren eraikinaren ondoko burdin hesi batetik sartzeko aukera ezarri da. // #BilbaoC4 El acceso principal de la estación de Güenes se encuentra temporalmente cerrado debido a una avería. Se ha habilitado un acceso por una verja colindante al edificio de la estación."
+          },
+          {
+            "lengua": "es",
+            "texto": "BALMASEDA. Ekainaren 29tik aurrera, Balmasedako geltokia itxita egongo da hobekuntza lanak direla eta. Nasara sartzeko. Justizia Jauregiaren ondoko kale beretik joan zaitezkete. // Desde el día 29 de junio, el acceso al vestíbulo de la estación de Balmaseda por la Calle Estación permanecerá cerrado temporalmente por obras de mejora. Para acceder al andén, utilicen el acceso situado en la misma calle, junto al Palacio de Justicia."
+          },
+          {
+            "lengua": "eu",
+            "texto": "BALMASEDA. Ekainaren 29tik aurrera, Balmasedako geltokia itxita egongo da hobekuntza lanak direla eta. Nasara sartzeko. Justizia Jauregiaren ondoko kale beretik joan zaitezkete. // Desde el día 29 de junio, el acceso al vestíbulo de la estación de Balmaseda por la Calle Estación permanecerá cerrado temporalmente por obras de mejora. Para acceder al andén, utilicen el acceso situado en la misma calle, junto al Palacio de Justicia."
+          },
+          {
+            "lengua": "es",
+            "texto": "AMETZOLA: Atondotik nasetara igotzeko eskailera mekanikoak zerbitzuz kanpo dago. Bilbo La Concordia noranzko bidaiarie eragiten die. // Las escaleras mecánicas de subida del vestibulo a andenes se encuentran fuera de servicio. Afecta a los viajeros dirección Bilbao La Concordia."
+          },
+          {
+            "lengua": "eu",
+            "texto": "AMETZOLA: Atondotik nasetara igotzeko eskailera mekanikoak zerbitzuz kanpo dago. Bilbo La Concordia noranzko bidaiarie eragiten die. // Las escaleras mecánicas de subida del vestibulo a andenes se encuentran fuera de servicio. Afecta a los viajeros dirección Bilbao La Concordia."
+          }
+        ]
+      },
+      {
+        "idnegocio": "31",
+        "linea": "C1",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Ascensor vía 4 de la estación de Aeropuerto de Jerez se encuentra fuera de servicio. Para más información contacten con el tl. 856 170 290. Disculpen las molestias"
+          }
+        ]
+      },
+      {
+        "idnegocio": "32",
+        "linea": "C2",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Renfe Cercanías Málaga informa que la estación de Plaza Mayor no es accesible temporalmente para PMR. Rogamos disculpen las molestias"
+          },
+          {
+            "lengua": "es",
+            "texto": "Renfe Cercanías Málaga informa que andén 2 dirección Málaga, de la estación de Los Álamos, no es accesible temporalmente para PMR. Rogamos disculpen las molestias."
+          }
+        ]
+      },
+      {
+        "idnegocio": "32",
+        "linea": "C1",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "Renfe Cercanías Málaga informa que la estación de Plaza Mayor no es accesible temporalmente para PMR. Rogamos disculpen las molestias"
+          },
+          {
+            "lengua": "es",
+            "texto": "Renfe Cercanías Málaga informa que andén 2 dirección Málaga, de la estación de Los Álamos, no es accesible temporalmente para PMR. Rogamos disculpen las molestias."
+          }
+        ]
+      },
+      {
+        "idnegocio": "61",
+        "linea": "C1",
+        "idiomas": [
+          {
+            "lengua": "es",
+            "texto": "ANDOAIN: 2. trenbideetako igogailua zerbitzuz kanpo dago. // El ascensor de vía 2 se encuentra fuera de servicio. "
+          },
+          {
+            "lengua": "eu",
+            "texto": "ANDOAIN: 2. trenbideetako igogailua zerbitzuz kanpo dago. // El ascensor de vía 2 se encuentra fuera de servicio. "
+          },
+          {
+            "lengua": "es",
+            "texto": "#DonostiaAldiriakC1 Azpiegituran egin beharreko lanak direla eta, zenbait ordu eta egunetan etenda dago Irun eta Hernaniko geltokien arteko zirkulazioa, bi noranzkoetan. Errepide bidezko garraio alternatiboa ezartzen da. Begiratu ordutegiak geltokietako beira-arasetan. // #SanSebastianC1 Debido a obras en la infraestructura, en determinadas franjas horarias y días se encuentra interrumpida la circulación entre las estaciones de Irun y Hernani en ambos sentidos. Se establece transporte alternativo por carretera. Consulten horarios en las vitrinas de las estaciones."
+          },
+          {
+            "lengua": "eu",
+            "texto": "#DonostiaAldiriakC1 Azpiegituran egin beharreko lanak direla eta, zenbait ordu eta egunetan etenda dago Irun eta Hernaniko geltokien arteko zirkulazioa, bi noranzkoetan. Errepide bidezko garraio alternatiboa ezartzen da. Begiratu ordutegiak geltokietako beira-arasetan. // #SanSebastianC1 Debido a obras en la infraestructura, en determinadas franjas horarias y días se encuentra interrumpida la circulación entre las estaciones de Irun y Hernani en ambos sentidos. Se establece transporte alternativo por carretera. Consulten horarios en las vitrinas de las estaciones."
+          },
+          {
+            "lengua": "es",
+            "texto": "BEASAIN: 2. trenbideko igogailua zerbitzuz kanpo dago. Brinkola noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentra fuera de servicio. Afecta a los viajeros dirección Brinkola."
+          },
+          {
+            "lengua": "eu",
+            "texto": "BEASAIN: 2. trenbideko igogailua zerbitzuz kanpo dago. Brinkola noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentra fuera de servicio. Afecta a los viajeros dirección Brinkola."
+          },
+          {
+            "lengua": "es",
+            "texto": "IRUN: 2. trenbideko igogailua zerbitzuz kanpo dago. Brinkola noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentra fuera de servicio. Afecta a los viajeros dirección Brinkola."
+          },
+          {
+            "lengua": "eu",
+            "texto": "IRUN: 2. trenbideko igogailua zerbitzuz kanpo dago. Brinkola noranzko bidaiarie eragiten die. // El ascensor de vía 2 se encuentra fuera de servicio. Afecta a los viajeros dirección Brinkola."
+          }
+        ]
+      }
+    ]
+  }
+}

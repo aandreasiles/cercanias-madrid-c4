@@ -1,0 +1,1458 @@
+{
+  "estacion": {
+    "stopId": "18002",
+    "nombre": "Madrid-Nuevos Ministerios",
+    "nucleo": "10",
+    "salidas": [
+      {
+        "trenId": "20045",
+        "tripId": "1099X20045C3",
+        "routeId": "10T0008C3",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 13:19:00",
+        "horaSalidaReal": "28-10-2026 13:19:00",
+        "horaSalidaPlanificada": "28-10-2026 13:13:00",
+        "accesible": 1,
+        "linea": "C3",
+        "via": "6",
+        "locEstacion": "60100",
+        "position": "S",
+        "localizacion": {
+          "latitud": 40.3526762629048,
+          "longitud": -3.6839325852975238
+        }
+      },
+      {
+        "trenId": "20047",
+        "tripId": "1099X20047C3",
+        "routeId": "10T0008C3",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 13:34:00",
+        "horaSalidaReal": "28-10-2026 13:34:00",
+        "horaSalidaPlanificada": "28-10-2026 13:33:00",
+        "accesible": 1,
+        "linea": "C3",
+        "via": "6",
+        "locEstacion": "60103",
+        "position": "A",
+        "localizacion": {
+          "latitud": 40.24284527696413,
+          "longitud": -3.70386136497253
+        }
+      },
+      {
+        "trenId": "20049",
+        "tripId": "1099X20049C3",
+        "routeId": "10T0008C3",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 13:55:00",
+        "horaSalidaReal": "28-10-2026 13:55:00",
+        "horaSalidaPlanificada": "28-10-2026 13:54:00",
+        "accesible": 1,
+        "linea": "C3",
+        "via": "6",
+        "locEstacion": "60200",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.03502544368752,
+          "longitud": -3.6189714145565786
+        }
+      },
+      {
+        "trenId": "20050",
+        "tripId": "1099X20050C3",
+        "routeId": "10T0007C3",
+        "destino": "60200",
+        "destinoNombre": "Aranjuez",
+        "horaSalida": "28-10-2026 13:34:00",
+        "horaSalidaReal": "28-10-2026 13:34:00",
+        "horaSalidaPlanificada": "28-10-2026 13:34:00",
+        "accesible": 1,
+        "linea": "C3",
+        "via": "8",
+        "locEstacion": "17000",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.47138248781003,
+          "longitud": -3.683478519116723
+        }
+      },
+      {
+        "trenId": "20052",
+        "tripId": "1099X20052C3",
+        "routeId": "10T0007C3",
+        "destino": "60200",
+        "destinoNombre": "Aranjuez",
+        "horaSalida": "28-10-2026 13:47:00",
+        "horaSalidaPlanificada": "28-10-2026 13:47:00",
+        "accesible": 1,
+        "linea": "C3",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "20051",
+        "tripId": "1099X20051C3",
+        "routeId": "10T0008C3",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 14:14:00",
+        "horaSalidaReal": "28-10-2026 14:14:00",
+        "horaSalidaPlanificada": "28-10-2026 14:14:00",
+        "accesible": 1,
+        "linea": "C3",
+        "via": "6",
+        "locEstacion": "60200",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.03502544368752,
+          "longitud": -3.6189714145565786
+        }
+      },
+      {
+        "trenId": "20053",
+        "tripId": "1099X20053C3",
+        "routeId": "10T0008C3",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 14:29:00",
+        "horaSalidaPlanificada": "28-10-2026 14:29:00",
+        "accesible": 1,
+        "linea": "C3",
+        "locEstacion": "60200",
+        "localizacion": {
+          "latitud": 40.0350257,
+          "longitud": -3.6182534
+        }
+      },
+      {
+        "trenId": "20054",
+        "tripId": "1099X20054C3",
+        "routeId": "10T0007C3",
+        "destino": "60200",
+        "destinoNombre": "Aranjuez",
+        "horaSalida": "28-10-2026 14:03:00",
+        "horaSalidaPlanificada": "28-10-2026 14:03:00",
+        "accesible": 1,
+        "linea": "C3",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "20055",
+        "tripId": "1099X20055C3",
+        "routeId": "10T0008C3",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 14:54:00",
+        "horaSalidaPlanificada": "28-10-2026 14:54:00",
+        "accesible": 1,
+        "linea": "C3",
+        "locEstacion": "60200",
+        "localizacion": {
+          "latitud": 40.0350257,
+          "longitud": -3.6182534
+        }
+      },
+      {
+        "trenId": "20056",
+        "tripId": "1099X20056C3",
+        "routeId": "10T0007C3",
+        "destino": "60200",
+        "destinoNombre": "Aranjuez",
+        "horaSalida": "28-10-2026 14:16:00",
+        "horaSalidaPlanificada": "28-10-2026 14:16:00",
+        "accesible": 1,
+        "linea": "C3",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "20058",
+        "tripId": "1099X20058C3",
+        "routeId": "10T0007C3",
+        "destino": "60200",
+        "destinoNombre": "Aranjuez",
+        "horaSalida": "28-10-2026 14:33:00",
+        "horaSalidaPlanificada": "28-10-2026 14:33:00",
+        "accesible": 1,
+        "linea": "C3",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "20060",
+        "tripId": "1099X20060C3",
+        "routeId": "10T0007C3",
+        "destino": "60200",
+        "destinoNombre": "Aranjuez",
+        "horaSalida": "28-10-2026 14:47:00",
+        "horaSalidaPlanificada": "28-10-2026 14:47:00",
+        "accesible": 1,
+        "linea": "C3",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "20265",
+        "tripId": "1099X20265C4a",
+        "routeId": "10T0014C4a",
+        "destino": "19003",
+        "destinoNombre": "Alcobendas-San Sebastián de los Reyes",
+        "horaSalida": "28-10-2026 13:26:00",
+        "horaSalidaReal": "28-10-2026 13:26:00",
+        "horaSalidaPlanificada": "28-10-2026 13:19:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "via": "6",
+        "locEstacion": "37010",
+        "position": "S",
+        "localizacion": {
+          "latitud": 40.323135363407935,
+          "longitud": -3.727362265427983
+        }
+      },
+      {
+        "trenId": "20267",
+        "tripId": "1099X20267C4a",
+        "routeId": "10T0014C4a",
+        "destino": "19003",
+        "destinoNombre": "Alcobendas-San Sebastián de los Reyes",
+        "horaSalida": "28-10-2026 13:40:00",
+        "horaSalidaReal": "28-10-2026 13:40:00",
+        "horaSalidaPlanificada": "28-10-2026 13:40:00",
+        "accesible": 2,
+        "linea": "C4a",
+        "via": "6",
+        "locEstacion": "37012",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.24143023,
+          "longitud": -3.76915900999995
+        }
+      },
+      {
+        "trenId": "20269",
+        "tripId": "1099X20269C4a",
+        "routeId": "10T0014C4a",
+        "destino": "19003",
+        "destinoNombre": "Alcobendas-San Sebastián de los Reyes",
+        "horaSalida": "28-10-2026 14:02:00",
+        "horaSalidaReal": "28-10-2026 14:02:00",
+        "horaSalidaPlanificada": "28-10-2026 14:02:00",
+        "accesible": 2,
+        "linea": "C4a",
+        "via": "6",
+        "locEstacion": "37012",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.24143023,
+          "longitud": -3.76915900999995
+        }
+      },
+      {
+        "trenId": "20270",
+        "tripId": "1099X20270C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 13:25:00",
+        "horaSalidaReal": "28-10-2026 13:25:00",
+        "horaSalidaPlanificada": "28-10-2026 13:17:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "via": "8",
+        "locEstacion": "19003",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.54641719193878,
+          "longitud": -3.635117559315849
+        }
+      },
+      {
+        "trenId": "20271",
+        "tripId": "1099X20271C4a",
+        "routeId": "10T0014C4a",
+        "destino": "19003",
+        "destinoNombre": "Alcobendas-San Sebastián de los Reyes",
+        "horaSalida": "28-10-2026 14:23:00",
+        "horaSalidaPlanificada": "28-10-2026 14:23:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "20272",
+        "tripId": "1099X20272C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 13:40:00",
+        "horaSalidaReal": "28-10-2026 13:40:00",
+        "horaSalidaPlanificada": "28-10-2026 13:40:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "via": "8",
+        "locEstacion": "19003",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.54641719193878,
+          "longitud": -3.635117559315849
+        }
+      },
+      {
+        "trenId": "20273",
+        "tripId": "1099X20273C4a",
+        "routeId": "10T0014C4a",
+        "destino": "19003",
+        "destinoNombre": "Alcobendas-San Sebastián de los Reyes",
+        "horaSalida": "28-10-2026 14:41:00",
+        "horaSalidaPlanificada": "28-10-2026 14:41:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "20274",
+        "tripId": "1099X20274C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 14:00:00",
+        "horaSalidaPlanificada": "28-10-2026 14:00:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "locEstacion": "19003",
+        "localizacion": {
+          "latitud": 40.5465765,
+          "longitud": -3.6351731
+        }
+      },
+      {
+        "trenId": "20275",
+        "tripId": "1099X20275C4a",
+        "routeId": "10T0014C4a",
+        "destino": "19003",
+        "destinoNombre": "Alcobendas-San Sebastián de los Reyes",
+        "horaSalida": "28-10-2026 14:59:00",
+        "horaSalidaPlanificada": "28-10-2026 14:59:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "20276",
+        "tripId": "1099X20276C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 14:23:00",
+        "horaSalidaPlanificada": "28-10-2026 14:23:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "locEstacion": "19003",
+        "localizacion": {
+          "latitud": 40.5465765,
+          "longitud": -3.6351731
+        }
+      },
+      {
+        "trenId": "20278",
+        "tripId": "1099X20278C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 14:42:00",
+        "horaSalidaPlanificada": "28-10-2026 14:42:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "locEstacion": "19003",
+        "localizacion": {
+          "latitud": 40.5465765,
+          "longitud": -3.6351731
+        }
+      },
+      {
+        "trenId": "20280",
+        "tripId": "1099X20280C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 15:00:00",
+        "horaSalidaPlanificada": "28-10-2026 15:00:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "locEstacion": "19003",
+        "localizacion": {
+          "latitud": 40.5465765,
+          "longitud": -3.6351731
+        }
+      },
+      {
+        "trenId": "20456",
+        "tripId": "1099X20456C4b",
+        "routeId": "10T0015C4b",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 13:15:00",
+        "horaSalidaReal": "28-10-2026 13:15:00",
+        "horaSalidaPlanificada": "28-10-2026 13:08:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "via": "8",
+        "locEstacion": "17009",
+        "position": "S",
+        "localizacion": {
+          "latitud": 40.5185733854522,
+          "longitud": -3.684631832219703
+        }
+      },
+      {
+        "trenId": "20458",
+        "tripId": "1099X20458C4b",
+        "routeId": "10T0015C4b",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 13:32:00",
+        "horaSalidaReal": "28-10-2026 13:32:00",
+        "horaSalidaPlanificada": "28-10-2026 13:29:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "via": "8",
+        "locEstacion": "17005",
+        "position": "S",
+        "localizacion": {
+          "latitud": 40.64488594994423,
+          "longitud": -3.7718090478957937
+        }
+      },
+      {
+        "trenId": "20462",
+        "tripId": "1099X20462C4b",
+        "routeId": "10T0015C4b",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 14:11:00",
+        "horaSalidaPlanificada": "28-10-2026 14:11:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "17005",
+        "localizacion": {
+          "latitud": 40.6452094,
+          "longitud": -3.7766142
+        }
+      },
+      {
+        "trenId": "20464",
+        "tripId": "1099X20464C4b",
+        "routeId": "10T0015C4b",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 14:30:00",
+        "horaSalidaPlanificada": "28-10-2026 14:30:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "17005",
+        "localizacion": {
+          "latitud": 40.6452094,
+          "longitud": -3.7766142
+        }
+      },
+      {
+        "trenId": "20466",
+        "tripId": "1099X20466C4b",
+        "routeId": "10T0015C4b",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 14:51:00",
+        "horaSalidaPlanificada": "28-10-2026 14:51:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "17005",
+        "localizacion": {
+          "latitud": 40.6452094,
+          "longitud": -3.7766142
+        }
+      },
+      {
+        "trenId": "20467",
+        "tripId": "1099X20467C4b",
+        "routeId": "10T0016C4b",
+        "destino": "17005",
+        "destinoNombre": "Colmenar Viejo",
+        "horaSalida": "28-10-2026 13:10:00",
+        "horaSalidaReal": "28-10-2026 13:10:00",
+        "horaSalidaPlanificada": "28-10-2026 13:10:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "via": "6",
+        "locEstacion": "18000",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.406540899311565,
+          "longitud": -3.6895106530263813
+        }
+      },
+      {
+        "trenId": "20469",
+        "tripId": "1099X20469C4b",
+        "routeId": "10T0016C4b",
+        "destino": "17005",
+        "destinoNombre": "Colmenar Viejo",
+        "horaSalida": "28-10-2026 13:30:00",
+        "horaSalidaPlanificada": "28-10-2026 13:30:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "37011",
+        "localizacion": {
+          "latitud": 40.2883893,
+          "longitud": -3.7374991
+        }
+      },
+      {
+        "trenId": "20471",
+        "tripId": "1099X20471C4b",
+        "routeId": "10T0016C4b",
+        "destino": "17005",
+        "destinoNombre": "Colmenar Viejo",
+        "horaSalida": "28-10-2026 13:50:00",
+        "horaSalidaReal": "28-10-2026 13:50:00",
+        "horaSalidaPlanificada": "28-10-2026 13:50:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "via": "6",
+        "locEstacion": "37012",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.24143023,
+          "longitud": -3.76915900999995
+        }
+      },
+      {
+        "trenId": "20473",
+        "tripId": "1099X20473C4b",
+        "routeId": "10T0016C4b",
+        "destino": "17005",
+        "destinoNombre": "Colmenar Viejo",
+        "horaSalida": "28-10-2026 14:11:00",
+        "horaSalidaPlanificada": "28-10-2026 14:11:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "20475",
+        "tripId": "1099X20475C4b",
+        "routeId": "10T0016C4b",
+        "destino": "17005",
+        "destinoNombre": "Colmenar Viejo",
+        "horaSalida": "28-10-2026 14:33:00",
+        "horaSalidaPlanificada": "28-10-2026 14:33:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "20477",
+        "tripId": "1099X20477C4b",
+        "routeId": "10T0016C4b",
+        "destino": "17005",
+        "destinoNombre": "Colmenar Viejo",
+        "horaSalida": "28-10-2026 14:50:00",
+        "horaSalidaPlanificada": "28-10-2026 14:50:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "21618",
+        "tripId": "1099X21618C2",
+        "routeId": "10T0006C2",
+        "destino": "70200",
+        "destinoNombre": "Guadalajara",
+        "horaSalida": "28-10-2026 13:41:00",
+        "horaSalidaPlanificada": "28-10-2026 13:41:00",
+        "accesible": 2,
+        "linea": "C2",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21620",
+        "tripId": "1099X21620C2",
+        "routeId": "10T0006C2",
+        "destino": "70200",
+        "destinoNombre": "Guadalajara",
+        "horaSalida": "28-10-2026 14:41:00",
+        "horaSalidaPlanificada": "28-10-2026 14:41:00",
+        "accesible": 2,
+        "linea": "C2",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21536",
+        "tripId": "1099X21536C2",
+        "routeId": "10T0006C2",
+        "destino": "70200",
+        "destinoNombre": "Guadalajara",
+        "horaSalida": "28-10-2026 13:11:00",
+        "horaSalidaReal": "28-10-2026 13:11:00",
+        "horaSalidaPlanificada": "28-10-2026 13:11:00",
+        "accesible": 2,
+        "linea": "C2",
+        "via": "2",
+        "locEstacion": "17000",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.47097187937795,
+          "longitud": -3.6824501355713726
+        }
+      },
+      {
+        "trenId": "21540",
+        "tripId": "1099X21540C2",
+        "routeId": "10T0006C2",
+        "destino": "70200",
+        "destinoNombre": "Guadalajara",
+        "horaSalida": "28-10-2026 14:11:00",
+        "horaSalidaPlanificada": "28-10-2026 14:11:00",
+        "accesible": 2,
+        "linea": "C2",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21128",
+        "tripId": "1099X21128C10",
+        "routeId": "10T0003C10",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 13:12:00",
+        "horaSalidaReal": "28-10-2026 13:12:00",
+        "horaSalidaPlanificada": "28-10-2026 13:11:00",
+        "accesible": 2,
+        "linea": "C10",
+        "via": "1",
+        "locEstacion": "18000",
+        "position": "A",
+        "localizacion": {
+          "latitud": 40.406667246791564,
+          "longitud": -3.689395726985656
+        }
+      },
+      {
+        "trenId": "21130",
+        "tripId": "1099X21130C10",
+        "routeId": "10T0003C10",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 13:42:00",
+        "horaSalidaPlanificada": "28-10-2026 13:42:00",
+        "accesible": 1,
+        "linea": "C10",
+        "locEstacion": "10005",
+        "localizacion": {
+          "latitud": 40.4942887,
+          "longitud": -3.8681747
+        }
+      },
+      {
+        "trenId": "21132",
+        "tripId": "1099X21132C10",
+        "routeId": "10T0003C10",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 14:23:00",
+        "horaSalidaReal": "28-10-2026 14:23:00",
+        "horaSalidaPlanificada": "28-10-2026 14:12:00",
+        "accesible": 2,
+        "linea": "C10",
+        "via": "1",
+        "locEstacion": "10200",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.62599336525824,
+          "longitud": -4.008115515926908
+        }
+      },
+      {
+        "trenId": "21134",
+        "tripId": "1099X21134C10",
+        "routeId": "10T0003C10",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 14:42:00",
+        "horaSalidaPlanificada": "28-10-2026 14:42:00",
+        "accesible": 1,
+        "linea": "C10",
+        "locEstacion": "10200",
+        "localizacion": {
+          "latitud": 40.6264893,
+          "longitud": -4.0080301
+        }
+      },
+      {
+        "trenId": "21228",
+        "tripId": "1099X21228C10",
+        "routeId": "10T0004C10",
+        "destino": "10200",
+        "destinoNombre": "Villalba de Guadarrama",
+        "horaSalida": "28-10-2026 13:06:00",
+        "horaSalidaReal": "28-10-2026 13:06:00",
+        "horaSalidaPlanificada": "28-10-2026 13:06:00",
+        "accesible": 1,
+        "linea": "C10",
+        "via": "4",
+        "locEstacion": "17000",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.470846436,
+          "longitud": -3.68250304199995
+        }
+      },
+      {
+        "trenId": "21230",
+        "tripId": "1099X21230C10",
+        "routeId": "10T0004C10",
+        "destino": "10200",
+        "destinoNombre": "Villalba de Guadarrama",
+        "horaSalida": "28-10-2026 13:36:00",
+        "horaSalidaReal": "28-10-2026 13:36:00",
+        "horaSalidaPlanificada": "28-10-2026 13:36:00",
+        "accesible": 2,
+        "linea": "C10",
+        "via": "4",
+        "locEstacion": "17000",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.470846436,
+          "longitud": -3.68250304199995
+        }
+      },
+      {
+        "trenId": "21232",
+        "tripId": "1099X21232C10",
+        "routeId": "10T0004C10",
+        "destino": "10200",
+        "destinoNombre": "Villalba de Guadarrama",
+        "horaSalida": "28-10-2026 14:06:00",
+        "horaSalidaPlanificada": "28-10-2026 14:06:00",
+        "accesible": 1,
+        "linea": "C10",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21234",
+        "tripId": "1099X21234C10",
+        "routeId": "10T0004C10",
+        "destino": "10200",
+        "destinoNombre": "Villalba de Guadarrama",
+        "horaSalida": "28-10-2026 14:37:00",
+        "horaSalidaPlanificada": "28-10-2026 14:37:00",
+        "accesible": 1,
+        "linea": "C10",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21280",
+        "tripId": "1099X21280C10",
+        "routeId": "10T0004C10",
+        "destino": "10200",
+        "destinoNombre": "Villalba de Guadarrama",
+        "horaSalida": "28-10-2026 14:19:00",
+        "horaSalidaPlanificada": "28-10-2026 14:19:00",
+        "accesible": 1,
+        "linea": "C10",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21282",
+        "tripId": "1099X21282C10",
+        "routeId": "10T0004C10",
+        "destino": "10200",
+        "destinoNombre": "Villalba de Guadarrama",
+        "horaSalida": "28-10-2026 14:47:00",
+        "horaSalidaPlanificada": "28-10-2026 14:47:00",
+        "accesible": 1,
+        "linea": "C10",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21331",
+        "tripId": "1099X21331C10",
+        "routeId": "10T0075C10",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 13:35:00",
+        "horaSalidaReal": "28-10-2026 13:35:00",
+        "horaSalidaPlanificada": "28-10-2026 13:27:00",
+        "accesible": 2,
+        "linea": "C10",
+        "via": "1",
+        "locEstacion": "10007",
+        "position": "A",
+        "localizacion": {
+          "latitud": 40.47443614207626,
+          "longitud": -3.846225939220043
+        }
+      },
+      {
+        "trenId": "21332",
+        "tripId": "1099X21332C10",
+        "routeId": "10T0076C10",
+        "destino": "10100",
+        "destinoNombre": "Pinar de las Rozas",
+        "horaSalida": "28-10-2026 13:21:00",
+        "horaSalidaReal": "28-10-2026 13:21:00",
+        "horaSalidaPlanificada": "28-10-2026 13:21:00",
+        "accesible": 2,
+        "linea": "C10",
+        "via": "4",
+        "locEstacion": "17000",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.470846436,
+          "longitud": -3.68250304199995
+        }
+      },
+      {
+        "trenId": "21333",
+        "tripId": "1099X21333C10",
+        "routeId": "10T0075C10",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 13:58:00",
+        "horaSalidaReal": "28-10-2026 13:58:00",
+        "horaSalidaPlanificada": "28-10-2026 13:58:00",
+        "accesible": 2,
+        "linea": "C10",
+        "via": "1",
+        "locEstacion": "10100",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.52247895373346,
+          "longitud": -3.8818291780334273
+        }
+      },
+      {
+        "trenId": "21334",
+        "tripId": "1099X21334C10",
+        "routeId": "10T0076C10",
+        "destino": "10100",
+        "destinoNombre": "Pinar de las Rozas",
+        "horaSalida": "28-10-2026 13:49:00",
+        "horaSalidaPlanificada": "28-10-2026 13:49:00",
+        "accesible": 2,
+        "linea": "C10",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21336",
+        "tripId": "1099X21336C10",
+        "routeId": "10T0076C10",
+        "destino": "10100",
+        "destinoNombre": "Pinar de las Rozas",
+        "horaSalida": "28-10-2026 14:22:00",
+        "horaSalidaPlanificada": "28-10-2026 14:22:00",
+        "accesible": 2,
+        "linea": "C10",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21335",
+        "tripId": "1099X21335C10",
+        "routeId": "10T0075C10",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 14:29:00",
+        "horaSalidaPlanificada": "28-10-2026 14:29:00",
+        "accesible": 2,
+        "linea": "C10",
+        "locEstacion": "10100",
+        "localizacion": {
+          "latitud": 40.5222672,
+          "longitud": -3.8822477
+        }
+      },
+      {
+        "trenId": "21337",
+        "tripId": "1099X21337C10",
+        "routeId": "10T0075C10",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 15:01:00",
+        "horaSalidaPlanificada": "28-10-2026 15:01:00",
+        "accesible": 2,
+        "linea": "C10",
+        "locEstacion": "10100",
+        "localizacion": {
+          "latitud": 40.5222672,
+          "longitud": -3.8822477
+        }
+      },
+      {
+        "trenId": "21338",
+        "tripId": "1099X21338C10",
+        "routeId": "10T0076C10",
+        "destino": "10100",
+        "destinoNombre": "Pinar de las Rozas",
+        "horaSalida": "28-10-2026 14:50:00",
+        "horaSalidaPlanificada": "28-10-2026 14:50:00",
+        "accesible": 2,
+        "linea": "C10",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21533",
+        "tripId": "1099X21533C2",
+        "routeId": "10T0005C2",
+        "destino": "10203",
+        "destinoNombre": "El Escorial",
+        "horaSalida": "28-10-2026 13:39:00",
+        "horaSalidaReal": "28-10-2026 13:39:00",
+        "horaSalidaPlanificada": "28-10-2026 13:34:00",
+        "accesible": 1,
+        "linea": "C2",
+        "via": "1",
+        "locEstacion": "70102",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.45463423017471,
+          "longitud": -3.4796962254162707
+        }
+      },
+      {
+        "trenId": "21535",
+        "tripId": "1099X21535C2",
+        "routeId": "10T0005C2",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 14:22:00",
+        "horaSalidaReal": "28-10-2026 14:22:00",
+        "horaSalidaPlanificada": "28-10-2026 14:22:00",
+        "accesible": 1,
+        "linea": "C2",
+        "via": "1",
+        "locEstacion": "70200",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.64425501053095,
+          "longitud": -3.182323617557709
+        }
+      },
+      {
+        "trenId": "21538",
+        "tripId": "1099X21538C2",
+        "routeId": "10T0006C2",
+        "destino": "70200",
+        "destinoNombre": "Guadalajara",
+        "horaSalida": "28-10-2026 13:24:00",
+        "horaSalidaReal": "28-10-2026 13:24:00",
+        "horaSalidaPlanificada": "28-10-2026 13:24:00",
+        "accesible": 2,
+        "linea": "C2",
+        "via": "2",
+        "locEstacion": "17000",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.47097187937795,
+          "longitud": -3.6824501355713726
+        }
+      },
+      {
+        "trenId": "21542",
+        "tripId": "1099X21542C2",
+        "routeId": "10T0006C2",
+        "destino": "70200",
+        "destinoNombre": "Guadalajara",
+        "horaSalida": "28-10-2026 14:28:00",
+        "horaSalidaPlanificada": "28-10-2026 14:28:00",
+        "accesible": 2,
+        "linea": "C2",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21617",
+        "tripId": "1099X21617C2",
+        "routeId": "10T0005C2",
+        "destino": "12006",
+        "destinoNombre": "Cercedilla",
+        "horaSalida": "28-10-2026 13:08:00",
+        "horaSalidaReal": "28-10-2026 13:08:00",
+        "horaSalidaPlanificada": "28-10-2026 13:04:00",
+        "accesible": 2,
+        "linea": "C2",
+        "via": "1",
+        "locEstacion": "70002",
+        "position": "A",
+        "localizacion": {
+          "latitud": 40.38177486691774,
+          "longitud": -3.6681282792723784
+        }
+      },
+      {
+        "trenId": "21619",
+        "tripId": "1099X21619C2",
+        "routeId": "10T0005C2",
+        "destino": "12006",
+        "destinoNombre": "Cercedilla",
+        "horaSalida": "28-10-2026 14:07:00",
+        "horaSalidaReal": "28-10-2026 14:07:00",
+        "horaSalidaPlanificada": "28-10-2026 14:06:00",
+        "accesible": 2,
+        "linea": "C2",
+        "via": "1",
+        "locEstacion": "70105",
+        "position": "A",
+        "localizacion": {
+          "latitud": 40.56094126738936,
+          "longitud": -3.2652873773259734
+        }
+      },
+      {
+        "trenId": "21621",
+        "tripId": "1099X21621C2",
+        "routeId": "10T0005C2",
+        "destino": "12006",
+        "destinoNombre": "Cercedilla",
+        "horaSalida": "28-10-2026 14:37:00",
+        "horaSalidaReal": "28-10-2026 14:37:00",
+        "horaSalidaPlanificada": "28-10-2026 14:37:00",
+        "accesible": 2,
+        "linea": "C2",
+        "via": "1",
+        "locEstacion": "70200",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.64425501053095,
+          "longitud": -3.182323617557709
+        }
+      },
+      {
+        "trenId": "21740",
+        "tripId": "1099X21740C2",
+        "routeId": "10T0006C2",
+        "destino": "70103",
+        "destinoNombre": "Alcalá de Henares",
+        "horaSalida": "28-10-2026 13:53:00",
+        "horaSalidaPlanificada": "28-10-2026 13:53:00",
+        "accesible": 2,
+        "linea": "C2",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21742",
+        "tripId": "1099X21742C2",
+        "routeId": "10T0006C2",
+        "destino": "70103",
+        "destinoNombre": "Alcalá de Henares",
+        "horaSalida": "28-10-2026 14:16:00",
+        "horaSalidaPlanificada": "28-10-2026 14:16:00",
+        "accesible": 2,
+        "linea": "C2",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21744",
+        "tripId": "1099X21744C2",
+        "routeId": "10T0006C2",
+        "destino": "70103",
+        "destinoNombre": "Alcalá de Henares",
+        "horaSalida": "28-10-2026 14:54:00",
+        "horaSalidaPlanificada": "28-10-2026 14:54:00",
+        "accesible": 2,
+        "linea": "C2",
+        "locEstacion": "17000",
+        "localizacion": {
+          "latitud": 40.4711789,
+          "longitud": -3.6829524
+        }
+      },
+      {
+        "trenId": "21745",
+        "tripId": "1099X21745C2",
+        "routeId": "10T0005C2",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 13:22:00",
+        "horaSalidaPlanificada": "28-10-2026 13:22:00",
+        "accesible": 2,
+        "linea": "C2",
+        "locEstacion": "70109",
+        "localizacion": {
+          "latitud": 40.3869545,
+          "longitud": -3.6089855
+        }
+      },
+      {
+        "trenId": "21747",
+        "tripId": "1099X21747C2",
+        "routeId": "10T0005C2",
+        "destino": "10203",
+        "destinoNombre": "El Escorial",
+        "horaSalida": "28-10-2026 13:54:00",
+        "horaSalidaReal": "28-10-2026 13:54:00",
+        "horaSalidaPlanificada": "28-10-2026 13:54:00",
+        "accesible": 2,
+        "linea": "C2",
+        "via": "1",
+        "locEstacion": "70103",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.489193780687714,
+          "longitud": -3.366283100185231
+        }
+      },
+      {
+        "trenId": "21753",
+        "tripId": "1099X21753C2",
+        "routeId": "10T0005C2",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 14:55:00",
+        "horaSalidaPlanificada": "28-10-2026 14:55:00",
+        "accesible": 1,
+        "linea": "C2",
+        "locEstacion": "70103",
+        "localizacion": {
+          "latitud": 40.4890814,
+          "longitud": -3.3662457
+        }
+      },
+      {
+        "trenId": "21830",
+        "tripId": "1099X21830C7",
+        "routeId": "10T0051C7",
+        "destino": "70103",
+        "destinoNombre": "Alcalá de Henares",
+        "horaSalida": "28-10-2026 13:38:00",
+        "horaSalidaReal": "28-10-2026 13:38:00",
+        "horaSalidaPlanificada": "28-10-2026 13:32:00",
+        "accesible": 2,
+        "linea": "C7",
+        "via": "2",
+        "locEstacion": "10010",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.465470406683856,
+          "longitud": -3.807672564788385
+        }
+      },
+      {
+        "trenId": "21832",
+        "tripId": "1099X21832C7",
+        "routeId": "10T0051C7",
+        "destino": "70103",
+        "destinoNombre": "Alcalá de Henares",
+        "horaSalida": "28-10-2026 14:02:00",
+        "horaSalidaReal": "28-10-2026 14:02:00",
+        "horaSalidaPlanificada": "28-10-2026 14:02:00",
+        "accesible": 2,
+        "linea": "C7",
+        "via": "2",
+        "locEstacion": "10000",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.42163049,
+          "longitud": -3.71932056999998
+        }
+      },
+      {
+        "trenId": "21834",
+        "tripId": "1099X21834C7",
+        "routeId": "10T0051C7",
+        "destino": "70103",
+        "destinoNombre": "Alcalá de Henares",
+        "horaSalida": "28-10-2026 14:34:00",
+        "horaSalidaPlanificada": "28-10-2026 14:34:00",
+        "accesible": 2,
+        "linea": "C7",
+        "locEstacion": "10000",
+        "localizacion": {
+          "latitud": 40.4214895,
+          "longitud": -3.7189689
+        }
+      },
+      {
+        "trenId": "21837",
+        "tripId": "1099X21837C7",
+        "routeId": "10T0052C7",
+        "destino": "10000",
+        "destinoNombre": "Madrid-Príncipe Pío",
+        "horaSalida": "28-10-2026 13:30:00",
+        "horaSalidaReal": "28-10-2026 13:30:00",
+        "horaSalidaPlanificada": "28-10-2026 13:15:00",
+        "accesible": 2,
+        "linea": "C7",
+        "via": "1",
+        "locEstacion": "70108",
+        "position": "S",
+        "localizacion": {
+          "latitud": 40.40519748300542,
+          "longitud": -3.589137333827783
+        }
+      },
+      {
+        "trenId": "21839",
+        "tripId": "1099X21839C7",
+        "routeId": "10T0052C7",
+        "destino": "10000",
+        "destinoNombre": "Madrid-Príncipe Pío",
+        "horaSalida": "28-10-2026 13:47:00",
+        "horaSalidaReal": "28-10-2026 13:47:00",
+        "horaSalidaPlanificada": "28-10-2026 13:46:00",
+        "accesible": 2,
+        "linea": "C7",
+        "via": "1",
+        "locEstacion": "70111",
+        "position": "A",
+        "localizacion": {
+          "latitud": 40.48034773745789,
+          "longitud": -3.392939932358701
+        }
+      },
+      {
+        "trenId": "21841",
+        "tripId": "1099X21841C7",
+        "routeId": "10T0052C7",
+        "destino": "10000",
+        "destinoNombre": "Madrid-Príncipe Pío",
+        "horaSalida": "28-10-2026 14:16:00",
+        "horaSalidaReal": "28-10-2026 14:16:00",
+        "horaSalidaPlanificada": "28-10-2026 14:16:00",
+        "accesible": 2,
+        "linea": "C7",
+        "via": "1",
+        "locEstacion": "70103",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.4888978600001,
+          "longitud": -3.36667072999995
+        }
+      },
+      {
+        "trenId": "21843",
+        "tripId": "1099X21843C7",
+        "routeId": "10T0052C7",
+        "destino": "10000",
+        "destinoNombre": "Madrid-Príncipe Pío",
+        "horaSalida": "28-10-2026 14:46:00",
+        "horaSalidaPlanificada": "28-10-2026 14:46:00",
+        "accesible": 2,
+        "linea": "C7",
+        "locEstacion": "70103",
+        "localizacion": {
+          "latitud": 40.4890814,
+          "longitud": -3.3662457
+        }
+      },
+      {
+        "trenId": "21330",
+        "tripId": "1099X21330C10",
+        "routeId": "10T0076C10",
+        "destino": "10100",
+        "destinoNombre": "Pinar de las Rozas",
+        "horaSalida": "28-10-2026 13:02:00",
+        "horaSalidaReal": "28-10-2026 13:02:00",
+        "horaSalidaPlanificada": "28-10-2026 12:45:00",
+        "accesible": 2,
+        "linea": "C10",
+        "via": "4",
+        "locEstacion": "18002",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.446548178363116,
+          "longitud": -3.6914728940480637
+        }
+      },
+      {
+        "trenId": "21828",
+        "tripId": "1099X21828C7",
+        "routeId": "10T0051C7",
+        "destino": "70103",
+        "destinoNombre": "Alcalá de Henares",
+        "horaSalida": "28-10-2026 13:04:00",
+        "horaSalidaReal": "28-10-2026 13:04:00",
+        "horaSalidaPlanificada": "28-10-2026 13:01:00",
+        "accesible": 1,
+        "linea": "C7",
+        "via": "2",
+        "locEstacion": "17000",
+        "position": "S",
+        "localizacion": {
+          "latitud": 40.458338477122936,
+          "longitud": -3.689619077751909
+        }
+      },
+      {
+        "trenId": "20268",
+        "tripId": "1099X20268C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 13:09:00",
+        "horaSalidaReal": "28-10-2026 13:09:00",
+        "horaSalidaPlanificada": "28-10-2026 12:57:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "via": "8",
+        "locEstacion": "17001",
+        "position": "A",
+        "localizacion": {
+          "latitud": 40.501646570505244,
+          "longitud": -3.6821796420946025
+        }
+      },
+      {
+        "trenId": "20263",
+        "tripId": "1099X20263C4a",
+        "routeId": "10T0014C4a",
+        "destino": "19003",
+        "destinoNombre": "Alcobendas-San Sebastián de los Reyes",
+        "horaSalida": "28-10-2026 13:02:00",
+        "horaSalidaReal": "28-10-2026 13:02:00",
+        "horaSalidaPlanificada": "28-10-2026 12:59:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "via": "6",
+        "locEstacion": "18002",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.446603117502924,
+          "longitud": -3.6920877419027005
+        }
+      },
+      {
+        "trenId": "20262",
+        "tripId": "1099X20262C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 13:25:00",
+        "horaSalidaReal": "28-10-2026 13:25:00",
+        "horaSalidaPlanificada": "28-10-2026 11:57:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "via": "8",
+        "locEstacion": "19003",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.3526762629048,
+          "longitud": -3.6839325852975238
+        }
+      },
+      {
+        "trenId": "21327",
+        "tripId": "1099X21327C10",
+        "routeId": "10T0075C10",
+        "destino": "17000",
+        "destinoNombre": "Madrid-Chamartín-Clara Campoamor",
+        "horaSalida": "28-10-2026 13:45:00",
+        "horaSalidaReal": "28-10-2026 13:45:00",
+        "horaSalidaPlanificada": "28-10-2026 12:27:00",
+        "accesible": 2,
+        "linea": "C10",
+        "via": "1",
+        "locEstacion": "10100",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.52247895373346,
+          "longitud": -3.8818291780334273
+        }
+      }
+    ]
+  },
+  "fechaActualizacion": "28-10-2026 13:02:00"
+}

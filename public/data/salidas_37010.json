@@ -1,0 +1,405 @@
+{
+  "estacion": {
+    "stopId": "37010",
+    "nombre": "Las Margaritas",
+    "nucleo": "10",
+    "salidas": [
+      {
+        "trenId": "20267",
+        "tripId": "1099X20267C4a",
+        "routeId": "10T0014C4a",
+        "destino": "19003",
+        "destinoNombre": "Alcobendas-San Sebastián de los Reyes",
+        "horaSalida": "28-10-2026 13:14:00",
+        "horaSalidaReal": "28-10-2026 13:14:00",
+        "horaSalidaPlanificada": "28-10-2026 13:14:00",
+        "accesible": 2,
+        "linea": "C4a",
+        "via": "1",
+        "locEstacion": "37012",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.24143023,
+          "longitud": -3.76915900999995
+        }
+      },
+      {
+        "trenId": "20269",
+        "tripId": "1099X20269C4a",
+        "routeId": "10T0014C4a",
+        "destino": "19003",
+        "destinoNombre": "Alcobendas-San Sebastián de los Reyes",
+        "horaSalida": "28-10-2026 13:36:00",
+        "horaSalidaReal": "28-10-2026 13:36:00",
+        "horaSalidaPlanificada": "28-10-2026 13:36:00",
+        "accesible": 2,
+        "linea": "C4a",
+        "via": "1",
+        "locEstacion": "37012",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.24143023,
+          "longitud": -3.76915900999995
+        }
+      },
+      {
+        "trenId": "20268",
+        "tripId": "1099X20268C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 13:30:00",
+        "horaSalidaReal": "28-10-2026 13:30:00",
+        "horaSalidaPlanificada": "28-10-2026 13:21:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "via": "2",
+        "locEstacion": "17001",
+        "position": "A",
+        "localizacion": {
+          "latitud": 40.501646570505244,
+          "longitud": -3.6821796420946025
+        }
+      },
+      {
+        "trenId": "20270",
+        "tripId": "1099X20270C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 13:49:00",
+        "horaSalidaReal": "28-10-2026 13:49:00",
+        "horaSalidaPlanificada": "28-10-2026 13:41:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "via": "2",
+        "locEstacion": "19003",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.54641719193878,
+          "longitud": -3.635117559315849
+        }
+      },
+      {
+        "trenId": "20271",
+        "tripId": "1099X20271C4a",
+        "routeId": "10T0014C4a",
+        "destino": "19003",
+        "destinoNombre": "Alcobendas-San Sebastián de los Reyes",
+        "horaSalida": "28-10-2026 13:57:00",
+        "horaSalidaPlanificada": "28-10-2026 13:57:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "20272",
+        "tripId": "1099X20272C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 14:05:00",
+        "horaSalidaReal": "28-10-2026 14:05:00",
+        "horaSalidaPlanificada": "28-10-2026 14:05:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "via": "2",
+        "locEstacion": "19003",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.54641719193878,
+          "longitud": -3.635117559315849
+        }
+      },
+      {
+        "trenId": "20273",
+        "tripId": "1099X20273C4a",
+        "routeId": "10T0014C4a",
+        "destino": "19003",
+        "destinoNombre": "Alcobendas-San Sebastián de los Reyes",
+        "horaSalida": "28-10-2026 14:15:00",
+        "horaSalidaPlanificada": "28-10-2026 14:15:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "20274",
+        "tripId": "1099X20274C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 14:25:00",
+        "horaSalidaPlanificada": "28-10-2026 14:25:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "locEstacion": "19003",
+        "localizacion": {
+          "latitud": 40.5465765,
+          "longitud": -3.6351731
+        }
+      },
+      {
+        "trenId": "20275",
+        "tripId": "1099X20275C4a",
+        "routeId": "10T0014C4a",
+        "destino": "19003",
+        "destinoNombre": "Alcobendas-San Sebastián de los Reyes",
+        "horaSalida": "28-10-2026 14:33:00",
+        "horaSalidaPlanificada": "28-10-2026 14:33:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "20276",
+        "tripId": "1099X20276C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 14:48:00",
+        "horaSalidaPlanificada": "28-10-2026 14:48:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "locEstacion": "19003",
+        "localizacion": {
+          "latitud": 40.5465765,
+          "longitud": -3.6351731
+        }
+      },
+      {
+        "trenId": "20277",
+        "tripId": "1099X20277C4a",
+        "routeId": "10T0014C4a",
+        "destino": "19003",
+        "destinoNombre": "Alcobendas-San Sebastián de los Reyes",
+        "horaSalida": "28-10-2026 14:54:00",
+        "horaSalidaPlanificada": "28-10-2026 14:54:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "20454",
+        "tripId": "1099X20454C4b",
+        "routeId": "10T0015C4b",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 13:12:00",
+        "horaSalidaPlanificada": "28-10-2026 13:12:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "18000",
+        "localizacion": {
+          "latitud": 40.4066191,
+          "longitud": -3.6894391
+        }
+      },
+      {
+        "trenId": "20458",
+        "tripId": "1099X20458C4b",
+        "routeId": "10T0015C4b",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 13:57:00",
+        "horaSalidaReal": "28-10-2026 13:57:00",
+        "horaSalidaPlanificada": "28-10-2026 13:54:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "via": "2",
+        "locEstacion": "17005",
+        "position": "S",
+        "localizacion": {
+          "latitud": 40.64488594994423,
+          "longitud": -3.7718090478957937
+        }
+      },
+      {
+        "trenId": "20462",
+        "tripId": "1099X20462C4b",
+        "routeId": "10T0015C4b",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 14:36:00",
+        "horaSalidaPlanificada": "28-10-2026 14:36:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "17005",
+        "localizacion": {
+          "latitud": 40.6452094,
+          "longitud": -3.7766142
+        }
+      },
+      {
+        "trenId": "20464",
+        "tripId": "1099X20464C4b",
+        "routeId": "10T0015C4b",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 14:55:00",
+        "horaSalidaPlanificada": "28-10-2026 14:55:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "17005",
+        "localizacion": {
+          "latitud": 40.6452094,
+          "longitud": -3.7766142
+        }
+      },
+      {
+        "trenId": "20469",
+        "tripId": "1099X20469C4b",
+        "routeId": "10T0016C4b",
+        "destino": "17005",
+        "destinoNombre": "Colmenar Viejo",
+        "horaSalida": "28-10-2026 13:05:00",
+        "horaSalidaPlanificada": "28-10-2026 13:05:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "37011",
+        "localizacion": {
+          "latitud": 40.2883893,
+          "longitud": -3.7374991
+        }
+      },
+      {
+        "trenId": "20471",
+        "tripId": "1099X20471C4b",
+        "routeId": "10T0016C4b",
+        "destino": "17005",
+        "destinoNombre": "Colmenar Viejo",
+        "horaSalida": "28-10-2026 13:24:00",
+        "horaSalidaReal": "28-10-2026 13:24:00",
+        "horaSalidaPlanificada": "28-10-2026 13:24:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "via": "1",
+        "locEstacion": "37012",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.24143023,
+          "longitud": -3.76915900999995
+        }
+      },
+      {
+        "trenId": "20473",
+        "tripId": "1099X20473C4b",
+        "routeId": "10T0016C4b",
+        "destino": "17005",
+        "destinoNombre": "Colmenar Viejo",
+        "horaSalida": "28-10-2026 13:45:00",
+        "horaSalidaPlanificada": "28-10-2026 13:45:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "20475",
+        "tripId": "1099X20475C4b",
+        "routeId": "10T0016C4b",
+        "destino": "17005",
+        "destinoNombre": "Colmenar Viejo",
+        "horaSalida": "28-10-2026 14:07:00",
+        "horaSalidaPlanificada": "28-10-2026 14:07:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "20477",
+        "tripId": "1099X20477C4b",
+        "routeId": "10T0016C4b",
+        "destino": "17005",
+        "destinoNombre": "Colmenar Viejo",
+        "horaSalida": "28-10-2026 14:24:00",
+        "horaSalidaPlanificada": "28-10-2026 14:24:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "20479",
+        "tripId": "1099X20479C4b",
+        "routeId": "10T0016C4b",
+        "destino": "17005",
+        "destinoNombre": "Colmenar Viejo",
+        "horaSalida": "28-10-2026 14:45:00",
+        "horaSalidaPlanificada": "28-10-2026 14:45:00",
+        "accesible": 1,
+        "linea": "C4b",
+        "locEstacion": "37012",
+        "localizacion": {
+          "latitud": 40.2410986,
+          "longitud": -3.7692699
+        }
+      },
+      {
+        "trenId": "20266",
+        "tripId": "1099X20266C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 13:09:00",
+        "horaSalidaReal": "28-10-2026 13:09:00",
+        "horaSalidaPlanificada": "28-10-2026 13:01:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "via": "2",
+        "locEstacion": "60100",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.35267512557201,
+          "longitud": -3.684073072667023
+        }
+      },
+      {
+        "trenId": "20262",
+        "tripId": "1099X20262C4a",
+        "routeId": "10T0013C4a",
+        "destino": "37012",
+        "destinoNombre": "Parla",
+        "horaSalida": "28-10-2026 13:49:00",
+        "horaSalidaReal": "28-10-2026 13:49:00",
+        "horaSalidaPlanificada": "28-10-2026 12:21:00",
+        "accesible": 1,
+        "linea": "C4a",
+        "via": "2",
+        "locEstacion": "19003",
+        "position": "E",
+        "localizacion": {
+          "latitud": 40.3526762629048,
+          "longitud": -3.6839325852975238
+        }
+      }
+    ]
+  },
+  "fechaActualizacion": "28-10-2026 13:02:00"
+}
