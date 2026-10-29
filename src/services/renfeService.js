@@ -95,60 +95,92 @@ export function normalizeDepartures(rawSalidas = [], stationId, refDate = new Da
     });
 }
 
+export const DEFAULT_PROXY = 'https://cercanias-renfe-proxy.silesandrea.workers.dev/?url={url}';
+
 /**
  * Main fetch function with multi-tier failover
  */
 export async function fetchDeparturesForStation(stationId) {
   const customProxy = localStorage.getItem('cercanias_custom_proxy');
+  const proxyToUse = customProxy !== null ? customProxy : DEFAULT_PROXY;
   const baseRenfeUrl = `https://tiempo-real.renfe.com/renfe-json-cutter/write/salidas/estacion/${stationId}.json?v=${Date.now()}`;
   
-  // Strategy 1: User custom proxy if defined
-  if (customProxy) {
+  // Strategy 1: Cloudflare Worker CORS Proxy (Default or Custom)
+  if (proxyToUse) {
     try {
-      const proxyUrl = customProxy.replace('{url}', encodeURIComponent(baseRenfeUrl));
-      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(5000) });
+      const proxyUrl = proxyToUse.replace('{url}', encodeURIComponent(baseRenfeUrl));
+      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(4500) });
       if (res.ok) {
         const json = await res.json();
-        return {
-          data: json,
-          source: 'LIVE_PROXY',
-          label: 'En Vivo (Proxy Personalizado)'
-        };
+        if (json && json.estacion && Array.isArray(json.estacion.salidas)) {
+          return {
+            data: json,
+            source: 'LIVE_DIRECT',
+            label: 'En Vivo (API Renfe Oficial)'
+          };
+        }
       }
     } catch (e) {
-      console.warn('Custom proxy failed:', e);
+      console.warn('Proxy request failed:', e);
     }
   }
 
-  // Strategy 2: Direct Renfe API (Works if browser has CORS extension or same-origin)
+  // Strategy 2: Vite Dev Server Proxy (Active during local development: npm run dev)
+  // Bypasses CORS completely via backend proxy in vite.config.js
+  if (import.meta.env.DEV) {
+    try {
+      const devProxyUrl = `/api-renfe/write/salidas/estacion/${stationId}.json?v=${Date.now()}`;
+      const res = await fetch(devProxyUrl, { signal: AbortSignal.timeout(3500) });
+      if (res.ok) {
+        const json = await res.json();
+        if (json && json.estacion && Array.isArray(json.estacion.salidas)) {
+          return {
+            data: json,
+            source: 'LIVE_DIRECT',
+            label: 'En Vivo (API Renfe Oficial)'
+          };
+        }
+      }
+    } catch (e) {
+      console.warn('Vite dev proxy failed:', e);
+    }
+  }
+
+  // Strategy 3: Direct Renfe API (Fast check if browser has CORS unblocked or same-origin)
   try {
     const res = await fetch(baseRenfeUrl, {
-      signal: AbortSignal.timeout(3500)
+      signal: AbortSignal.timeout(1500)
     });
     if (res.ok) {
       const json = await res.json();
-      return {
-        data: json,
-        source: 'LIVE_DIRECT',
-        label: 'En Vivo (API Renfe Oficial)'
-      };
+      if (json && json.estacion && Array.isArray(json.estacion.salidas)) {
+        return {
+          data: json,
+          source: 'LIVE_DIRECT',
+          label: 'En Vivo (API Renfe Oficial)'
+        };
+      }
     }
   } catch (e) {
-    // CORS or network failure is expected on standard web browsers without proxy
+    // Expected to fail in standard browsers due to Renfe lacking CORS headers
   }
 
-  // Strategy 3: Fast local snapshot from GitHub Pages repository
+  // Strategy 4: Local snapshot from repository (only if it has upcoming departures)
   try {
-    const repoSnapshotUrl = `./data/salidas_${stationId}.json?v=${Date.now()}`;
-    const res = await fetch(repoSnapshotUrl, { signal: AbortSignal.timeout(3500) });
+    const baseUrl = import.meta.env.BASE_URL || './';
+    const cleanBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+    const repoSnapshotUrl = `${cleanBase}data/salidas_${stationId}.json?v=${Date.now()}`;
+    const res = await fetch(repoSnapshotUrl, { signal: AbortSignal.timeout(2500) });
     if (res.ok) {
       const json = await res.json();
-      // If snapshot is recent (today), we can use its train list and adapt times
-      if (json && json.estacion && json.estacion.salidas) {
+      const rawSalidas = json?.estacion?.salidas || [];
+      const normalized = normalizeDepartures(rawSalidas, stationId);
+      // Only accept snapshot if it actually contains future departures
+      if (normalized.length > 0) {
         return {
           data: json,
           source: 'SNAPSHOT',
-          label: 'Datos Reales Recientes (Caché Renfe)'
+          label: 'Datos Reales Recientes (Caché)'
         };
       }
     }
@@ -156,12 +188,13 @@ export async function fetchDeparturesForStation(stationId) {
     // Continue to next fallback
   }
 
-  // Strategy 4: High fidelity C-4 schedule engine
+  // Strategy 5: High fidelity C-4 schedule engine
+  // Generates departures using official Renfe C-4 peak/off-peak frequencies, lines & tracks
   const simulated = generateSimulatedDepartures(stationId, new Date());
   return {
     data: simulated,
     source: 'SCHEDULE_ENGINE',
-    label: 'Horario Oficial C-4 (Tiempo Estimado)'
+    label: 'Horario Oficial C-4 (Frecuencias Reales)'
   };
 }
 
@@ -169,8 +202,37 @@ export async function fetchDeparturesForStation(stationId) {
  * Fetch alerts from Renfe
  */
 export async function fetchRenfeAlerts() {
+  const customProxy = localStorage.getItem('cercanias_custom_proxy');
+  const proxyToUse = customProxy !== null ? customProxy : DEFAULT_PROXY;
+  const baseAlertsUrl = `https://tiempo-real.renfe.com/renfe-visor/alerts.json?v=${Date.now()}`;
+
+  if (proxyToUse) {
+    try {
+      const proxyUrl = proxyToUse.replace('{url}', encodeURIComponent(baseAlertsUrl));
+      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(4000) });
+      if (res.ok) {
+        return await res.json();
+      }
+    } catch (e) {
+      // ignore
+    }
+  }
+
+  if (import.meta.env.DEV) {
+    try {
+      const res = await fetch(`/api-renfe-visor/alerts.json?v=${Date.now()}`, { signal: AbortSignal.timeout(3000) });
+      if (res.ok) {
+        return await res.json();
+      }
+    } catch (e) {
+      // ignore
+    }
+  }
+
   try {
-    const res = await fetch(`./data/alerts.json?v=${Date.now()}`, { signal: AbortSignal.timeout(3000) });
+    const baseUrl = import.meta.env.BASE_URL || './';
+    const cleanBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+    const res = await fetch(`${cleanBase}data/alerts.json?v=${Date.now()}`, { signal: AbortSignal.timeout(2500) });
     if (res.ok) {
       const data = await res.json();
       return data;

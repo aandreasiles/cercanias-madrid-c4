@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { X, Save, RefreshCw, Server, HelpCircle, Check, Info } from 'lucide-react';
+import { X, Save, RefreshCw, Server, HelpCircle, Check, Info, RotateCcw } from 'lucide-react';
 import { PRIMARY_STATIONS, STATIONS } from '../data/stations';
+import { DEFAULT_PROXY } from '../services/renfeService';
 
 export function SettingsModal({ isOpen, onClose, currentSettings, onSaveSettings }) {
   const [defaultStationId, setDefaultStationId] = useState(
@@ -10,7 +11,7 @@ export function SettingsModal({ isOpen, onClose, currentSettings, onSaveSettings
     currentSettings.refreshInterval || 30
   );
   const [customProxy, setCustomProxy] = useState(
-    currentSettings.customProxy || ''
+    currentSettings.customProxy || DEFAULT_PROXY
   );
   const [showSavedFeedback, setShowSavedFeedback] = useState(false);
 
@@ -18,7 +19,7 @@ export function SettingsModal({ isOpen, onClose, currentSettings, onSaveSettings
     if (isOpen) {
       setDefaultStationId(currentSettings.defaultStationId || STATIONS.LAS_MARGARITAS.id);
       setRefreshInterval(currentSettings.refreshInterval || 30);
-      setCustomProxy(localStorage.getItem('cercanias_custom_proxy') || '');
+      setCustomProxy(localStorage.getItem('cercanias_custom_proxy') || currentSettings.customProxy || DEFAULT_PROXY);
     }
   }, [isOpen, currentSettings]);
 
@@ -136,18 +137,33 @@ export function SettingsModal({ isOpen, onClose, currentSettings, onSaveSettings
             </p>
           </div>
 
-          {/* Proxy opcional */}
+          {/* Proxy CORS */}
           <div>
-            <label className="block font-semibold text-slate-300 mb-1 text-xs">
-              Proxy CORS opcional (Cloudflare Worker o similar)
-            </label>
+            <div className="flex items-center justify-between mb-1">
+              <label className="font-semibold text-slate-300 text-xs">
+                Proxy CORS (Cloudflare Worker)
+              </label>
+              {customProxy !== DEFAULT_PROXY && (
+                <button
+                  type="button"
+                  onClick={() => setCustomProxy(DEFAULT_PROXY)}
+                  className="text-[11px] text-blue-400 hover:text-blue-300 flex items-center gap-1 transition"
+                >
+                  <RotateCcw className="w-3 h-3" />
+                  <span>Restaurar por defecto</span>
+                </button>
+              )}
+            </div>
             <input
               type="text"
-              placeholder="https://mi-proxy.workers.dev/?url={url}"
+              placeholder={DEFAULT_PROXY}
               value={customProxy}
               onChange={(e) => setCustomProxy(e.target.value)}
               className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs font-mono text-slate-200 placeholder-slate-600 focus:outline-none focus:border-blue-500"
             />
+            <p className="text-[11px] text-slate-500 mt-1">
+              Conecta con tu Worker en Cloudflare para saltar el bloqueo CORS del navegador.
+            </p>
           </div>
         </div>
 

@@ -1,0 +1,5 @@
+{
+  "name": "cercanias-renfe-proxy",
+  "compatibility_date": "2026-10-23",
+  "main": "cloudflare-worker/worker.js"
+}

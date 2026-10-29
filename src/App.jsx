@@ -7,7 +7,7 @@ import { C4LineDiagram } from './components/C4LineDiagram';
 import { AlertsBanner } from './components/AlertsBanner';
 import { SettingsModal } from './components/SettingsModal';
 import { STATIONS, PRIMARY_STATIONS } from './data/stations';
-import { fetchDeparturesForStation, normalizeDepartures, fetchRenfeAlerts } from './services/renfeService';
+import { fetchDeparturesForStation, normalizeDepartures, fetchRenfeAlerts, DEFAULT_PROXY } from './services/renfeService';
 import { ArrowLeftRight, Clock, AlertCircle } from 'lucide-react';
 
 export default function App() {
@@ -16,7 +16,11 @@ export default function App() {
     const saved = localStorage.getItem('cercanias_settings');
     if (saved) {
       try {
-        return JSON.parse(saved);
+        const parsed = JSON.parse(saved);
+        if (!parsed.customProxy) {
+          parsed.customProxy = DEFAULT_PROXY;
+        }
+        return parsed;
       } catch (e) {
         // ignore
       }
@@ -24,7 +28,7 @@ export default function App() {
     return {
       defaultStationId: STATIONS.LAS_MARGARITAS.id,
       refreshInterval: 30,
-      customProxy: ''
+      customProxy: DEFAULT_PROXY
     };
   });
 
