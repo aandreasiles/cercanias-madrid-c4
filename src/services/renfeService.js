@@ -98,6 +98,18 @@ export function normalizeDepartures(rawSalidas = [], stationId, refDate = new Da
 export const DEFAULT_PROXY = 'https://cercanias-renfe-proxy.silesandrea.workers.dev/?url={url}';
 
 /**
+ * Universal timeout signal for cross-browser & mobile compatibility
+ */
+function timeoutSignal(ms) {
+  if (typeof AbortSignal !== 'undefined' && typeof AbortSignal.timeout === 'function') {
+    return AbortSignal.timeout(ms);
+  }
+  const controller = new AbortController();
+  setTimeout(() => controller.abort(), ms);
+  return controller.signal;
+}
+
+/**
  * Main fetch function with multi-tier failover
  */
 export async function fetchDeparturesForStation(stationId) {
@@ -109,7 +121,7 @@ export async function fetchDeparturesForStation(stationId) {
   if (proxyToUse) {
     try {
       const proxyUrl = proxyToUse.replace('{url}', encodeURIComponent(baseRenfeUrl));
-      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(7000) });
+      const res = await fetch(proxyUrl, { signal: timeoutSignal(8000) });
       if (res.ok) {
         const json = await res.json();
         if (json && json.estacion && Array.isArray(json.estacion.salidas)) {
@@ -130,7 +142,7 @@ export async function fetchDeparturesForStation(stationId) {
   if (import.meta.env.DEV) {
     try {
       const devProxyUrl = `/api-renfe/write/salidas/estacion/${stationId}.json?v=${Date.now()}`;
-      const res = await fetch(devProxyUrl, { signal: AbortSignal.timeout(3500) });
+      const res = await fetch(devProxyUrl, { signal: timeoutSignal(3500) });
       if (res.ok) {
         const json = await res.json();
         if (json && json.estacion && Array.isArray(json.estacion.salidas)) {
@@ -149,7 +161,7 @@ export async function fetchDeparturesForStation(stationId) {
   // Strategy 3: Direct Renfe API (Fast check if browser has CORS unblocked or same-origin)
   try {
     const res = await fetch(baseRenfeUrl, {
-      signal: AbortSignal.timeout(1500)
+      signal: timeoutSignal(1500)
     });
     if (res.ok) {
       const json = await res.json();
@@ -170,7 +182,7 @@ export async function fetchDeparturesForStation(stationId) {
     const baseUrl = import.meta.env.BASE_URL || './';
     const cleanBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
     const repoSnapshotUrl = `${cleanBase}data/salidas_${stationId}.json?v=${Date.now()}`;
-    const res = await fetch(repoSnapshotUrl, { signal: AbortSignal.timeout(2500) });
+    const res = await fetch(repoSnapshotUrl, { signal: timeoutSignal(2500) });
     if (res.ok) {
       const json = await res.json();
       const rawSalidas = json?.estacion?.salidas || [];
@@ -209,7 +221,7 @@ export async function fetchRenfeAlerts() {
   if (proxyToUse) {
     try {
       const proxyUrl = proxyToUse.replace('{url}', encodeURIComponent(baseAlertsUrl));
-      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(6000) });
+      const res = await fetch(proxyUrl, { signal: timeoutSignal(6000) });
       if (res.ok) {
         return await res.json();
       }
@@ -220,7 +232,7 @@ export async function fetchRenfeAlerts() {
 
   if (import.meta.env.DEV) {
     try {
-      const res = await fetch(`/api-renfe-visor/alerts.json?v=${Date.now()}`, { signal: AbortSignal.timeout(3000) });
+      const res = await fetch(`/api-renfe-visor/alerts.json?v=${Date.now()}`, { signal: timeoutSignal(3000) });
       if (res.ok) {
         return await res.json();
       }
@@ -232,7 +244,7 @@ export async function fetchRenfeAlerts() {
   try {
     const baseUrl = import.meta.env.BASE_URL || './';
     const cleanBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
-    const res = await fetch(`${cleanBase}data/alerts.json?v=${Date.now()}`, { signal: AbortSignal.timeout(2500) });
+    const res = await fetch(`${cleanBase}data/alerts.json?v=${Date.now()}`, { signal: timeoutSignal(2500) });
     if (res.ok) {
       const data = await res.json();
       return data;
