@@ -17,7 +17,7 @@ export default function App() {
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
-        if (!parsed.customProxy) {
+        if (!parsed.customProxy || !parsed.customProxy.trim()) {
           parsed.customProxy = DEFAULT_PROXY;
         }
         return parsed;

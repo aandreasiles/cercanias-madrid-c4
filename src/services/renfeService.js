@@ -102,14 +102,14 @@ export const DEFAULT_PROXY = 'https://cercanias-renfe-proxy.silesandrea.workers.
  */
 export async function fetchDeparturesForStation(stationId) {
   const customProxy = localStorage.getItem('cercanias_custom_proxy');
-  const proxyToUse = customProxy !== null ? customProxy : DEFAULT_PROXY;
+  const proxyToUse = customProxy && customProxy.trim() ? customProxy.trim() : DEFAULT_PROXY;
   const baseRenfeUrl = `https://tiempo-real.renfe.com/renfe-json-cutter/write/salidas/estacion/${stationId}.json?v=${Date.now()}`;
   
   // Strategy 1: Cloudflare Worker CORS Proxy (Default or Custom)
   if (proxyToUse) {
     try {
       const proxyUrl = proxyToUse.replace('{url}', encodeURIComponent(baseRenfeUrl));
-      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(4500) });
+      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(7000) });
       if (res.ok) {
         const json = await res.json();
         if (json && json.estacion && Array.isArray(json.estacion.salidas)) {
@@ -203,13 +203,13 @@ export async function fetchDeparturesForStation(stationId) {
  */
 export async function fetchRenfeAlerts() {
   const customProxy = localStorage.getItem('cercanias_custom_proxy');
-  const proxyToUse = customProxy !== null ? customProxy : DEFAULT_PROXY;
+  const proxyToUse = customProxy && customProxy.trim() ? customProxy.trim() : DEFAULT_PROXY;
   const baseAlertsUrl = `https://tiempo-real.renfe.com/renfe-visor/alerts.json?v=${Date.now()}`;
 
   if (proxyToUse) {
     try {
       const proxyUrl = proxyToUse.replace('{url}', encodeURIComponent(baseAlertsUrl));
-      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(4000) });
+      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(6000) });
       if (res.ok) {
         return await res.json();
       }
